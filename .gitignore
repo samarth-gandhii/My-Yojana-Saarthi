@@ -10,6 +10,12 @@ schemes_indexed.csv
 # Results (regeneratable)
 results/
 
+PROJECT_POSTER_SUMMARY.md
+PROJECT_REPORT.md
+
+build_poster_pdf.py
+
+generate_poster_results.py
 
 .agents/
 

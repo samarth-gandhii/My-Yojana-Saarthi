@@ -191,41 +191,68 @@ def resolve_states_and_ministries(df: pd.DataFrame, base_dir: str):
     return resolved_states, resolved_mins
 
 
-# ── Enriched Search Text Generation ───────────────────────────────────────────
+# ── Enriched Search Text Generation (Field-Weighted & Token Budgeted) ─────────
+
+def _clean_snippet(val: str, max_words: int) -> str:
+    """Helper to clean and limit text to a word budget."""
+    if not isinstance(val, str) or not val.strip() or val.strip().lower() == "nan":
+        return ""
+    words = val.strip().split()
+    if len(words) > max_words:
+        return " ".join(words[:max_words])
+    return " ".join(words)
+
 
 def build_search_text(row: pd.Series) -> str:
-    """Synthesize complete, descriptive search text for semantic & keyword matching."""
+    """
+    Synthesize field-weighted, token-budgeted search text.
+    Strictly stays within the 256-token sequence limit of SentenceTransformer
+    (~150-160 words max) while ensuring all high-salience fields are represented.
+
+    Field allocation (approx 150 words):
+      1. Scheme Name (repeated 2x as vector anchor): ~15 words
+      2. Category: ~5 words
+      3. Tags (repeated 2x): ~20 words
+      4. Eligibility Criteria (prioritized before details): ~45 words
+      5. Key Benefits: ~35 words
+      6. Details / Overview: ~35 words
+    """
     parts = []
 
-    # Scheme Name
+    # 1. Scheme Name (anchor: repeated 2x)
     scheme_name = str(row.get("scheme_name", "")).strip()
-    if scheme_name and scheme_name != "nan":
-        parts.append(scheme_name)
+    if scheme_name and scheme_name.lower() != "nan":
+        parts.append(f"{scheme_name}. {scheme_name}")
 
-    # Details / Overview
-    details = str(row.get("details", row.get("description", ""))).strip()
-    if details and details != "nan":
-        parts.append(details)
-
-    # Benefits
-    benefits = str(row.get("benefits", "")).strip()
-    if benefits and benefits != "nan":
-        parts.append(f"Benefits: {benefits}")
-
-    # Eligibility
-    eligibility = str(row.get("eligibility", "")).strip()
-    if eligibility and eligibility != "nan":
-        parts.append(f"Eligibility: {eligibility}")
-
-    # Category
+    # 2. Category
     category = str(row.get("category", row.get("schemeCategory", ""))).strip()
-    if category and category != "nan":
+    if category and category.lower() != "nan":
         parts.append(f"Category: {category}")
 
-    # Tags
-    tags = str(row.get("tags", "")).strip()
-    if tags and tags != "nan":
-        parts.append(f"Tags: {tags}")
+    # 3. Tags (clean semicolons to commas, repeated 2x for keyword density)
+    tags_raw = str(row.get("tags", "")).strip()
+    if tags_raw and tags_raw.lower() != "nan":
+        tags_clean = ", ".join(t.strip() for t in tags_raw.split(";") if t.strip())
+        if tags_clean:
+            parts.append(f"Tags: {tags_clean}. {tags_clean}")
+
+    # 4. Eligibility (Demographic conditions: income, caste, age, gender - capped at 45 words)
+    eligibility_val = str(row.get("eligibility", ""))
+    elig_snippet = _clean_snippet(eligibility_val, max_words=45)
+    if elig_snippet:
+        parts.append(f"Eligibility: {elig_snippet}")
+
+    # 5. Benefits (Financial outcome, subsidies, laptops, etc. - capped at 35 words)
+    benefits_val = str(row.get("benefits", ""))
+    benefits_snippet = _clean_snippet(benefits_val, max_words=35)
+    if benefits_snippet:
+        parts.append(f"Benefits: {benefits_snippet}")
+
+    # 6. Details / Overview (capped at 35 words to prevent drowning out metadata)
+    details_val = str(row.get("details", row.get("description", "")))
+    details_snippet = _clean_snippet(details_val, max_words=35)
+    if details_snippet:
+        parts.append(f"Overview: {details_snippet}")
 
     text = ". ".join(p.rstrip(".") for p in parts if p) + "."
     return text
@@ -285,15 +312,9 @@ def load_and_validate(path: str) -> pd.DataFrame:
     if "level" not in df.columns:
         df["level"] = "Central"
 
-    # Synthesize search_text
-    if "search_text" not in df.columns:
-        print("  Generating rich search_text from Name, Details, Benefits, Eligibility, Category, and Tags...")
-        df["search_text"] = df.apply(build_search_text, axis=1)
-    else:
-        empty_mask = df["search_text"].isna() | (df["search_text"].str.strip() == "")
-        if empty_mask.sum() > 0:
-            print(f"  Filling {empty_mask.sum()} empty search_text rows...")
-            df.loc[empty_mask, "search_text"] = df[empty_mask].apply(build_search_text, axis=1)
+    # Synthesize search_text using field-weighted token budgeting
+    print("  Generating field-weighted, token-budgeted search_text (<=256 tokens)...")
+    df["search_text"] = df.apply(build_search_text, axis=1)
 
     # Validate required columns
     required = ["scheme_name", "scheme_id", "search_text", "state", "category", "level"]

@@ -3,7 +3,7 @@ app.py — Modern Semantic Search Interface (Govt Scheme Finder)
 
 Key Enhancements:
   - Zero Emojis: Bespoke library of clean, high-resolution SVG vector icons
-  - Modern Color Palette: Obsidian slate (#0A0E17), electric indigo, emerald & sapphire accents
+  - Modern Color Palette: Clean Light Mode (Slate-50 #F8FAFC canvas, Pure White #FFFFFF cards, Electric Indigo #4F46E5, Emerald & Amber accents)
   - Integrated Card Architecture: Built-in collapsible drawer (<details><summary>)
     eliminating disconnected default Streamlit expanders
   - Responsive Prompt Grid: Clean 2x3 cards with domain icons, zero text clipping
@@ -19,7 +19,7 @@ import search_engine
 # ── Page Config ───────────────────────────────────────────────────────────────
 
 st.set_page_config(
-    page_title="SchemeFinder AI — Semantic Welfare Search",
+    page_title="My Yojana Saarthi — Smart Welfare Search",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -151,6 +151,11 @@ def get_svg_icon(name: str, size: int = 16, stroke_width: float = 1.8, color: st
         ),
         "check": (
             '<polyline points="20 6 9 17 4 12"/>'
+        ),
+        "target": (
+            '<circle cx="12" cy="12" r="10"/>'
+            '<circle cx="12" cy="12" r="6"/>'
+            '<circle cx="12" cy="12" r="2"/>'
         )
     }
     path_data = paths.get(name, paths["info"])
@@ -162,7 +167,7 @@ def get_svg_icon(name: str, size: int = 16, stroke_width: float = 1.8, color: st
         f'{path_data}</svg>'
     )
 
-# ── Custom CSS: Modern Clean Layout & Palette ─────────────────────────────────
+# ── Custom CSS: Modern Clean Light Mode Design System ─────────────────────────
 
 CUSTOM_CSS = """
 <style>
@@ -173,13 +178,13 @@ html, body, [class*="css"], [class*="st-"] {
     font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
 }
 
-/* Deep Obsidian Background with Fine Ambient Accent */
+/* Crisp Clean Light Background with Subtle Ambient Glow */
 .stApp {
-    background-color: #0A0E17 !important;
+    background-color: #F8FAFC !important;
     background-image: 
-        radial-gradient(circle at 50% -20%, rgba(99, 102, 241, 0.09) 0%, rgba(10, 14, 23, 0) 65%),
-        radial-gradient(circle at 100% 30%, rgba(14, 165, 233, 0.04) 0%, rgba(10, 14, 23, 0) 50%) !important;
-    color: #E2E8F0 !important;
+        radial-gradient(circle at 50% -10%, rgba(99, 102, 241, 0.08) 0%, rgba(248, 250, 252, 0) 65%),
+        radial-gradient(circle at 100% 30%, rgba(14, 165, 233, 0.05) 0%, rgba(248, 250, 252, 0) 50%) !important;
+    color: #0F172A !important;
 }
 
 /* Streamlit Header clean up */
@@ -194,7 +199,7 @@ header[data-testid="stHeader"] {
     align-items: center;
     padding: 16px 0 24px 0;
     margin-bottom: 24px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    border-bottom: 1px solid #E2E8F0;
 }
 
 .brand-left {
@@ -209,24 +214,24 @@ header[data-testid="stHeader"] {
     justify-content: center;
     width: 44px;
     height: 44px;
-    background: linear-gradient(135deg, rgba(99, 102, 241, 0.2) 0%, rgba(14, 165, 233, 0.15) 100%);
-    border: 1px solid rgba(99, 102, 241, 0.35);
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.12) 0%, rgba(14, 165, 233, 0.1) 100%);
+    border: 1px solid rgba(99, 102, 241, 0.25);
     border-radius: 12px;
-    box-shadow: 0 4px 16px rgba(99, 102, 241, 0.2);
-    color: #818CF8;
+    box-shadow: 0 4px 14px rgba(99, 102, 241, 0.12);
+    color: #4F46E5;
 }
 
 .brand-title {
     font-size: 1.55rem;
     font-weight: 800;
     letter-spacing: -0.025em;
-    color: #FFFFFF;
+    color: #0F172A;
     line-height: 1.2;
 }
 
 .brand-sub {
     font-size: 0.82rem;
-    color: #94A3B8;
+    color: #64748B;
     font-weight: 500;
 }
 
@@ -234,13 +239,14 @@ header[data-testid="stHeader"] {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
     padding: 7px 14px;
     border-radius: 9999px;
     font-size: 0.76rem;
     font-weight: 600;
-    color: #94A3B8;
+    color: #475569;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
 }
 
 .brand-meta-badge span.pulse-dot {
@@ -249,7 +255,7 @@ header[data-testid="stHeader"] {
     background: #10B981;
     border-radius: 50%;
     display: inline-block;
-    box-shadow: 0 0 8px #10B981;
+    box-shadow: 0 0 8px rgba(16, 185, 129, 0.6);
 }
 
 /* Hero Headline & Instructions */
@@ -257,14 +263,14 @@ header[data-testid="stHeader"] {
     font-size: 2.1rem;
     font-weight: 800;
     letter-spacing: -0.025em;
-    color: #F8FAFC;
+    color: #0F172A;
     line-height: 1.25;
     margin-bottom: 8px;
 }
 
 .hero-description {
     font-size: 0.95rem;
-    color: #94A3B8;
+    color: #475569;
     line-height: 1.6;
     max-width: 820px;
     margin-bottom: 24px;
@@ -276,25 +282,24 @@ div[data-testid="stTextInput"] {
 }
 
 div[data-testid="stTextInput"] > div > div > input {
-    background: rgba(17, 24, 39, 0.85) !important;
-    border: 1px solid rgba(255, 255, 255, 0.12) !important;
+    background: #FFFFFF !important;
+    border: 1.5px solid #CBD5E1 !important;
     border-radius: 14px !important;
-    color: #F8FAFC !important;
+    color: #0F172A !important;
     padding: 16px 20px !important;
     font-size: 1.02rem !important;
-    backdrop-filter: blur(12px) !important;
-    box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.35) !important;
+    box-shadow: 0 4px 16px -2px rgba(15, 23, 42, 0.05), 0 1px 3px rgba(15, 23, 42, 0.03) !important;
     transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
 
 div[data-testid="stTextInput"] > div > div > input:focus {
-    border-color: #6366F1 !important;
-    background: rgba(17, 24, 39, 0.95) !important;
-    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.22), 0 8px 30px rgba(0, 0, 0, 0.5) !important;
+    border-color: #4F46E5 !important;
+    background: #FFFFFF !important;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15), 0 8px 24px rgba(79, 70, 229, 0.08) !important;
 }
 
 div[data-testid="stTextInput"] > div > div > input::placeholder {
-    color: #64748B !important;
+    color: #94A3B8 !important;
     font-size: 0.96rem !important;
 }
 
@@ -313,40 +318,41 @@ div[data-testid="stTextInput"] > div > div > input::placeholder {
 
 div[data-testid="stHorizontalBlock"] button {
     border-radius: 10px !important;
-    border: 1px solid rgba(255, 255, 255, 0.08) !important;
-    background: rgba(17, 24, 39, 0.65) !important;
-    color: #CBD5E1 !important;
+    border: 1px solid #E2E8F0 !important;
+    background: #FFFFFF !important;
+    color: #334155 !important;
     font-size: 0.82rem !important;
     font-weight: 500 !important;
     padding: 8px 12px !important;
     min-height: 42px !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04) !important;
     transition: all 0.2s ease !important;
 }
 
 div[data-testid="stHorizontalBlock"] button:hover {
-    border-color: rgba(99, 102, 241, 0.45) !important;
-    background: rgba(99, 102, 241, 0.12) !important;
-    color: #FFFFFF !important;
+    border-color: #818CF8 !important;
+    background: #EEF2FF !important;
+    color: #4338CA !important;
     transform: translateY(-1px) !important;
-    box-shadow: 0 4px 14px rgba(99, 102, 241, 0.12) !important;
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.12) !important;
 }
 
 /* Unified Self-Contained Scheme Card */
 .scheme-card {
-    background: rgba(17, 24, 39, 0.75);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
     border-radius: 16px;
     padding: 22px;
     margin-bottom: 18px;
-    backdrop-filter: blur(12px);
+    box-shadow: 0 4px 16px -2px rgba(15, 23, 42, 0.04), 0 1px 3px rgba(15, 23, 42, 0.02);
     transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
     position: relative;
 }
 
 .scheme-card:hover {
-    border-color: rgba(99, 102, 241, 0.35);
+    border-color: #818CF8;
     transform: translateY(-2px);
-    box-shadow: 0 12px 32px -4px rgba(0, 0, 0, 0.45), 0 0 0 1px rgba(99, 102, 241, 0.15);
+    box-shadow: 0 12px 28px -4px rgba(99, 102, 241, 0.1), 0 4px 12px rgba(15, 23, 42, 0.04);
 }
 
 .scheme-card-header {
@@ -360,7 +366,7 @@ div[data-testid="stHorizontalBlock"] button:hover {
 .scheme-title {
     font-size: 1.2rem;
     font-weight: 700;
-    color: #F8FAFC;
+    color: #0F172A;
     line-height: 1.35;
     letter-spacing: -0.015em;
 }
@@ -380,21 +386,21 @@ div[data-testid="stHorizontalBlock"] button:hover {
 }
 
 .score-high {
-    background: rgba(16, 185, 129, 0.12);
-    color: #34D399;
-    border: 1px solid rgba(16, 185, 129, 0.28);
+    background: #ECFDF5;
+    color: #047857;
+    border: 1px solid #A7F3D0;
 }
 
 .score-mid {
-    background: rgba(14, 165, 233, 0.12);
-    color: #38BDF8;
-    border: 1px solid rgba(14, 165, 233, 0.28);
+    background: #F0F9FF;
+    color: #0284C7;
+    border: 1px solid #BAE6FD;
 }
 
 .score-low {
-    background: rgba(245, 158, 11, 0.12);
-    color: #FBBF24;
-    border: 1px solid rgba(245, 158, 11, 0.28);
+    background: #FFFBEB;
+    color: #B45309;
+    border: 1px solid #FDE68A;
 }
 
 /* Metadata Row & Chips */
@@ -414,33 +420,33 @@ div[data-testid="stHorizontalBlock"] button:hover {
     border-radius: 8px;
     font-size: 0.76rem;
     font-weight: 600;
-    background: rgba(255, 255, 255, 0.04);
-    color: #94A3B8;
-    border: 1px solid rgba(255, 255, 255, 0.07);
+    background: #F8FAFC;
+    color: #475569;
+    border: 1px solid #E2E8F0;
     line-height: 1;
 }
 
 .chip-central {
-    background: rgba(99, 102, 241, 0.12);
-    color: #A5B4FC;
-    border-color: rgba(99, 102, 241, 0.25);
+    background: #EEF2FF;
+    color: #4338CA;
+    border-color: #C7D2FE;
 }
 
 .chip-state {
-    background: rgba(14, 165, 233, 0.12);
-    color: #38BDF8;
-    border-color: rgba(14, 165, 233, 0.25);
+    background: #F0F9FF;
+    color: #0369A1;
+    border-color: #BAE6FD;
 }
 
 .chip-cat {
-    background: rgba(168, 85, 247, 0.12);
-    color: #C084FC;
-    border-color: rgba(168, 85, 247, 0.25);
+    background: #FAF5FF;
+    color: #7E22CE;
+    border-color: #E9D5FF;
 }
 
 /* Card Description Snippet */
 .scheme-desc {
-    color: #CBD5E1;
+    color: #475569;
     font-size: 0.92rem;
     line-height: 1.6;
     margin-bottom: 14px;
@@ -448,7 +454,7 @@ div[data-testid="stHorizontalBlock"] button:hover {
 
 /* Collapsible Details Drawer Inside the Card */
 details.scheme-drawer {
-    border-top: 1px solid rgba(255, 255, 255, 0.07);
+    border-top: 1px solid #E2E8F0;
     padding-top: 12px;
     margin-top: 10px;
 }
@@ -461,7 +467,7 @@ details.scheme-drawer summary {
     justify-content: space-between;
     font-size: 0.82rem;
     font-weight: 600;
-    color: #818CF8;
+    color: #4F46E5;
     user-select: none;
     padding: 6px 0;
     transition: color 0.15s ease;
@@ -472,7 +478,7 @@ details.scheme-drawer summary::-webkit-details-marker {
 }
 
 details.scheme-drawer summary:hover {
-    color: #A5B4FC;
+    color: #4338CA;
 }
 
 .chevron-icon {
@@ -492,11 +498,11 @@ details.scheme-drawer[open] .chevron-icon {
 .drawer-content {
     padding: 16px;
     margin-top: 10px;
-    background: rgba(10, 14, 23, 0.55);
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
     border-radius: 12px;
     font-size: 0.88rem;
-    color: #CBD5E1;
+    color: #334155;
     line-height: 1.6;
 }
 
@@ -506,7 +512,7 @@ details.scheme-drawer[open] .chevron-icon {
     gap: 12px;
     margin: 14px 0;
     padding-top: 12px;
-    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    border-top: 1px solid #E2E8F0;
 }
 
 .drawer-item-label {
@@ -519,8 +525,8 @@ details.scheme-drawer[open] .chevron-icon {
 
 .drawer-item-val {
     font-size: 0.82rem;
-    color: #E2E8F0;
-    font-weight: 500;
+    color: #0F172A;
+    font-weight: 600;
 }
 
 .drawer-tags {
@@ -532,9 +538,9 @@ details.scheme-drawer[open] .chevron-icon {
 
 .drawer-tag-chip {
     font-size: 0.72rem;
-    color: #94A3B8;
-    background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(255, 255, 255, 0.06);
+    color: #475569;
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
     border-radius: 6px;
     padding: 2px 8px;
 }
@@ -546,25 +552,26 @@ details.scheme-drawer[open] .chevron-icon {
     margin-top: 14px;
     padding: 7px 14px;
     border-radius: 8px;
-    background: rgba(99, 102, 241, 0.15);
-    border: 1px solid rgba(99, 102, 241, 0.3);
-    color: #A5B4FC !important;
+    background: #4F46E5;
+    border: 1px solid #4338CA;
+    color: #FFFFFF !important;
     text-decoration: none !important;
     font-size: 0.78rem;
     font-weight: 600;
+    box-shadow: 0 1px 3px rgba(79, 70, 229, 0.2);
     transition: all 0.2s ease;
 }
 
 .drawer-action-btn:hover {
-    background: rgba(99, 102, 241, 0.25);
-    border-color: #6366F1;
+    background: #4338CA;
+    box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
     color: #FFFFFF !important;
 }
 
 /* Sidebar Styling */
 section[data-testid="stSidebar"] {
-    background-color: #080C14 !important;
-    border-right: 1px solid rgba(255, 255, 255, 0.06) !important;
+    background-color: #FFFFFF !important;
+    border-right: 1px solid #E2E8F0 !important;
 }
 
 .sidebar-heading {
@@ -575,25 +582,25 @@ section[data-testid="stSidebar"] {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: #94A3B8;
+    color: #334155;
     margin-bottom: 12px;
 }
 
 .tech-spec-box {
-    background: rgba(17, 24, 39, 0.6);
-    border: 1px solid rgba(255, 255, 255, 0.06);
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
     border-radius: 12px;
     padding: 14px;
     font-size: 0.78rem;
-    color: #94A3B8;
+    color: #475569;
     line-height: 1.6;
 }
 
 .tech-spec-item {
     display: flex;
     justify-content: space-between;
-    padding: 3px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    padding: 4px 0;
+    border-bottom: 1px solid #E2E8F0;
 }
 
 .tech-spec-item:last-child {
@@ -605,9 +612,9 @@ section[data-testid="stSidebar"] {
 }
 
 .tech-spec-val {
-    color: #CBD5E1;
+    color: #0F172A;
     font-family: 'JetBrains Mono', monospace;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 /* Comparison View Column Subheaders */
@@ -617,10 +624,10 @@ section[data-testid="stSidebar"] {
     gap: 8px;
     font-size: 1.15rem;
     font-weight: 700;
-    color: #818CF8;
+    color: #4F46E5;
     margin-bottom: 16px;
     padding-bottom: 8px;
-    border-bottom: 2px solid rgba(129, 140, 248, 0.3);
+    border-bottom: 2px solid #818CF8;
 }
 
 .comp-header-kw {
@@ -629,25 +636,26 @@ section[data-testid="stSidebar"] {
     gap: 8px;
     font-size: 1.15rem;
     font-weight: 700;
-    color: #F59E0B;
+    color: #D97706;
     margin-bottom: 16px;
     padding-bottom: 8px;
-    border-bottom: 2px solid rgba(245, 158, 11, 0.3);
+    border-bottom: 2px solid #F59E0B;
 }
 
 /* Feature Showcase Cards (Empty State) */
 .feature-card {
-    background: rgba(17, 24, 39, 0.6);
-    border: 1px solid rgba(255, 255, 255, 0.06);
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
     border-radius: 14px;
     padding: 22px;
     height: 100%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
     transition: all 0.2s ease;
 }
 
 .feature-card:hover {
-    border-color: rgba(99, 102, 241, 0.3);
-    background: rgba(17, 24, 39, 0.85);
+    border-color: #818CF8;
+    box-shadow: 0 8px 24px rgba(99, 102, 241, 0.08);
 }
 
 .feature-icon-box {
@@ -657,21 +665,21 @@ section[data-testid="stSidebar"] {
     width: 38px;
     height: 38px;
     border-radius: 10px;
-    background: rgba(99, 102, 241, 0.12);
-    color: #818CF8;
+    background: #EEF2FF;
+    color: #4F46E5;
     margin-bottom: 14px;
 }
 
 .feature-title {
     font-size: 0.96rem;
     font-weight: 700;
-    color: #F8FAFC;
+    color: #0F172A;
     margin-bottom: 6px;
 }
 
 .feature-body {
     font-size: 0.84rem;
-    color: #94A3B8;
+    color: #475569;
     line-height: 1.55;
 }
 </style>
@@ -696,10 +704,10 @@ brand_html = f"""
 <div class="brand-bar">
     <div class="brand-left">
         <div class="brand-icon-box">
-            {get_svg_icon("shield-check", size=22, stroke_width=2, color="#818CF8")}
+            {get_svg_icon("shield-check", size=22, stroke_width=2, color="#4F46E5")}
         </div>
         <div>
-            <div class="brand-title">SchemeFinder AI</div>
+            <div class="brand-title">My Yojana Saarthi</div>
             <div class="brand-sub">Neural Semantic Welfare Retrieval Engine</div>
         </div>
     </div>
@@ -717,7 +725,7 @@ render_html(brand_html)
 
 with st.sidebar:
     render_html(
-        f'<div class="sidebar-heading">{get_svg_icon("sliders", size=16, color="#818CF8")} Filters & Constraints</div>'
+        f'<div class="sidebar-heading">{get_svg_icon("sliders", size=16, color="#4F46E5")} Filters & Constraints</div>'
     )
 
     selected_state = st.selectbox(
@@ -736,23 +744,38 @@ with st.sidebar:
     )
     category_filter = None if selected_category == "All Categories" else selected_category
 
+    search_mode = st.radio(
+        "Search Strategy",
+        ["Hybrid (BM25 + Semantic)", "Semantic Only", "BM25 Lexical Only"],
+        index=0,
+        help="Hybrid combines neural semantic vector matching with Okapi BM25 lexical ranking for optimal recall."
+    )
+
     num_results = st.slider("Result Count (Top-K)", min_value=3, max_value=20, value=5)
 
     st.markdown("<br>", unsafe_allow_html=True)
     render_html(
-        f'<div class="sidebar-heading">{get_svg_icon("scale", size=16, color="#F59E0B")} Benchmarking</div>'
+        f'<div class="sidebar-heading">{get_svg_icon("scale", size=16, color="#D97706")} Benchmarking</div>'
     )
-    show_comparison = st.toggle("Side-by-side: Keyword vs Semantic", value=False)
+    show_comparison = st.toggle("Side-by-side Comparison Mode", value=False)
 
     st.markdown("<br>", unsafe_allow_html=True)
     render_html(
-        f'<div class="sidebar-heading">{get_svg_icon("cpu", size=16, color="#0EA5E9")} Architecture Specs</div>'
+        f'<div class="sidebar-heading">{get_svg_icon("cpu", size=16, color="#0284C7")} Architecture Specs</div>'
     )
     render_html(
         f"""
         <div class="tech-spec-box">
             <div class="tech-spec-item">
-                <span class="tech-spec-key">Encoder</span>
+                <span class="tech-spec-key">Fusion</span>
+                <span class="tech-spec-val">Weighted RRF (k=60)</span>
+            </div>
+            <div class="tech-spec-item">
+                <span class="tech-spec-key">Lexical</span>
+                <span class="tech-spec-val">Okapi BM25</span>
+            </div>
+            <div class="tech-spec-item">
+                <span class="tech-spec-key">Neural Vector</span>
                 <span class="tech-spec-val">all-MiniLM-L6-v2</span>
             </div>
             <div class="tech-spec-item">
@@ -760,20 +783,16 @@ with st.sidebar:
                 <span class="tech-spec-val">384-d normalized</span>
             </div>
             <div class="tech-spec-item">
-                <span class="tech-spec-key">Similarity</span>
-                <span class="tech-spec-val">Cosine (Dot Prod)</span>
+                <span class="tech-spec-key">Expansion</span>
+                <span class="tech-spec-val">943 Auto-Synonyms</span>
             </div>
             <div class="tech-spec-item">
                 <span class="tech-spec-key">Corpus Size</span>
                 <span class="tech-spec-val">{total_schemes:,} schemes</span>
             </div>
             <div class="tech-spec-item">
-                <span class="tech-spec-key">Source</span>
-                <span class="tech-spec-val">updated_data.csv</span>
-            </div>
-            <div class="tech-spec-item">
                 <span class="tech-spec-key">Latency</span>
-                <span class="tech-spec-val">~0.62 ms / query</span>
+                <span class="tech-spec-val">&lt; 3.0 ms / query</span>
             </div>
         </div>
         """
@@ -783,11 +802,7 @@ with st.sidebar:
 
 render_html(
     """
-    <div class="hero-headline">Find government schemes tailored to your situation.</div>
-    <div class="hero-description">
-        State your requirements, occupation, or personal circumstances in everyday English.
-        Dense semantic vectors map the meaning of your query to official eligibility criteria without requiring bureaucratic acronyms.
-    </div>
+    <div class="hero-headline" style="margin-bottom: 24px;">Find government schemes tailored to your situation.</div>
     """
 )
 
@@ -809,7 +824,7 @@ prompts = [
 ]
 
 render_html(
-    f'<div class="prompt-shelf-label">{get_svg_icon("sparkles", size=14, color="#64748B")} Suggested Prompt Scenarios</div>'
+    f'<div class="prompt-shelf-label">{get_svg_icon("sparkles", size=14, color="#4F46E5")} Suggested Prompt Scenarios</div>'
 )
 
 # Render in 2 rows of 3 columns for balanced width
@@ -854,17 +869,35 @@ def render_scheme_card(row, method: str):
     score = float(row["score"])
 
     # Score category & formatting
-    if score >= 0.70:
-        badge_class = "score-high"
-        pct_display = f"{int(min(100, score * 100))}% Match"
-    elif score >= 0.45:
-        badge_class = "score-mid"
-        pct_display = f"{int(min(100, score * 100))}% Match"
+    if method == "Hybrid":
+        # RRF scores typically range from ~0.008 to ~0.016+
+        sem_score = float(row.get("semantic_score", 0.0))
+        bm25_sc = float(row.get("bm25_score", 0.0))
+        if score >= 0.0150 or sem_score >= 0.55:
+            badge_class = "score-high"
+            pct_display = "Top Hybrid Match"
+        elif score >= 0.0120 or sem_score >= 0.40:
+            badge_class = "score-mid"
+            pct_display = "Strong Match"
+        else:
+            badge_class = "score-low"
+            pct_display = "Candidate Match"
+        score_display = f"RRF: {score:.4f} (Sem: {sem_score:.2f} · BM25: {bm25_sc:.1f})"
+    elif method == "BM25":
+        badge_class = "score-mid" if score > 15 else "score-low"
+        pct_display = f"BM25: {score:.1f}"
+        score_display = f"Score: {score:.1f}"
     else:
-        badge_class = "score-low"
-        pct_display = f"{int(max(0, score * 100))}% Match"
-
-    score_display = f"Score: {score:.3f}"
+        if score >= 0.70:
+            badge_class = "score-high"
+            pct_display = f"{int(min(100, score * 100))}% Match"
+        elif score >= 0.45:
+            badge_class = "score-mid"
+            pct_display = f"{int(min(100, score * 100))}% Match"
+        else:
+            badge_class = "score-low"
+            pct_display = f"{int(max(0, score * 100))}% Match"
+        score_display = f"Score: {score:.3f}"
 
     # Escaped Values
     scheme_title = html.escape(str(row.get('scheme_name', 'Unnamed Scheme')))
@@ -873,27 +906,27 @@ def render_scheme_card(row, method: str):
     level_val = str(row.get('level', 'Central'))
     level_is_central = "Central" in level_val
     level_class = "chip-central" if level_is_central else "chip-state"
-    flag_icon = get_svg_icon("flag", size=13, color="#A5B4FC" if level_is_central else "#38BDF8")
+    flag_icon = get_svg_icon("flag", size=13, color="#4338CA" if level_is_central else "#0369A1")
 
     state_val = str(row.get('state', 'All India'))
     if len(state_val) > 28:
         state_val = state_val[:25] + "..."
     state_val = html.escape(state_val)
-    pin_icon = get_svg_icon("map-pin", size=13, color="#94A3B8")
+    pin_icon = get_svg_icon("map-pin", size=13, color="#64748B")
 
     # Sector / Category
     category_val = str(row.get('category', ''))
     cat_element = ""
     if pd.notna(category_val) and category_val:
         first_cat = html.escape(category_val.split(';')[0].strip())
-        tag_icon = get_svg_icon("tag", size=13, color="#C084FC")
+        tag_icon = get_svg_icon("tag", size=13, color="#7E22CE")
         cat_element = f'<span class="meta-chip chip-cat">{tag_icon} {first_cat}</span>'
 
     # Ministry / Department
     ministry_val = str(row.get('ministry', ''))
     has_ministry = pd.notna(row.get('ministry')) and ministry_val != "Not specified (state scheme)"
     ministry_val_clean = html.escape(ministry_val)
-    building_icon = get_svg_icon("building", size=13, color="#94A3B8")
+    building_icon = get_svg_icon("building", size=13, color="#64748B")
 
     # Snippet & Description
     full_desc_raw = str(row.get('description', 'No detailed description available.'))
@@ -921,53 +954,53 @@ def render_scheme_card(row, method: str):
     benefits_html = ""
     if benefits_val and benefits_val != 'nan':
         benefits_clean = html.escape(benefits_val).replace("\n", "<br>")
-        sparkle_icon = get_svg_icon("sparkles", size=14, color="#34D399")
+        sparkle_icon = get_svg_icon("sparkles", size=14, color="#059669")
         benefits_html = f"""
-<div style="font-weight: 600; color: #34D399; margin-top: 12px; margin-bottom: 5px; display: flex; align-items: center; gap: 6px;">
+<div style="font-weight: 700; color: #047857; margin-top: 14px; margin-bottom: 5px; display: flex; align-items: center; gap: 6px;">
     {sparkle_icon} Key Scheme Benefits:
 </div>
-<div style="margin-bottom: 12px; color: #CBD5E1; font-size: 0.88rem; line-height: 1.5;">{benefits_clean}</div>
+<div style="margin-bottom: 12px; color: #334155; font-size: 0.88rem; line-height: 1.6;">{benefits_clean}</div>
 """
 
     eligibility_val = str(row.get('eligibility', '')).strip()
     eligibility_html = ""
     if eligibility_val and eligibility_val != 'nan':
         eligibility_clean = html.escape(eligibility_val).replace("\n", "<br>")
-        shield_icon = get_svg_icon("shield-check", size=14, color="#60A5FA")
+        shield_icon = get_svg_icon("shield-check", size=14, color="#2563EB")
         eligibility_html = f"""
-<div style="font-weight: 600; color: #60A5FA; margin-top: 12px; margin-bottom: 5px; display: flex; align-items: center; gap: 6px;">
+<div style="font-weight: 700; color: #1D4ED8; margin-top: 14px; margin-bottom: 5px; display: flex; align-items: center; gap: 6px;">
     {shield_icon} Eligibility Criteria:
 </div>
-<div style="margin-bottom: 12px; color: #CBD5E1; font-size: 0.88rem; line-height: 1.5;">{eligibility_clean}</div>
+<div style="margin-bottom: 12px; color: #334155; font-size: 0.88rem; line-height: 1.6;">{eligibility_clean}</div>
 """
 
     application_val = str(row.get('application', '')).strip()
     application_html = ""
     if application_val and application_val != 'nan':
         application_clean = html.escape(application_val).replace("\n", "<br>")
-        layers_icon = get_svg_icon("layers", size=14, color="#A78BFA")
+        layers_icon = get_svg_icon("layers", size=14, color="#7C3AED")
         application_html = f"""
-<div style="font-weight: 600; color: #A78BFA; margin-top: 12px; margin-bottom: 5px; display: flex; align-items: center; gap: 6px;">
+<div style="font-weight: 700; color: #6D28D9; margin-top: 14px; margin-bottom: 5px; display: flex; align-items: center; gap: 6px;">
     {layers_icon} Application Process:
 </div>
-<div style="margin-bottom: 12px; color: #CBD5E1; font-size: 0.88rem; line-height: 1.5;">{application_clean}</div>
+<div style="margin-bottom: 12px; color: #334155; font-size: 0.88rem; line-height: 1.6;">{application_clean}</div>
 """
 
     documents_val = str(row.get('documents', '')).strip()
     documents_html = ""
     if documents_val and documents_val != 'nan':
         documents_clean = html.escape(documents_val).replace("\n", "<br>")
-        tag_icon = get_svg_icon("tag", size=14, color="#FBBF24")
+        tag_icon = get_svg_icon("tag", size=14, color="#D97706")
         documents_html = f"""
-<div style="font-weight: 600; color: #FBBF24; margin-top: 12px; margin-bottom: 5px; display: flex; align-items: center; gap: 6px;">
+<div style="font-weight: 700; color: #B45309; margin-top: 14px; margin-bottom: 5px; display: flex; align-items: center; gap: 6px;">
     {tag_icon} Required Documents:
 </div>
-<div style="margin-bottom: 12px; color: #CBD5E1; font-size: 0.88rem; line-height: 1.5;">{documents_clean}</div>
+<div style="margin-bottom: 12px; color: #334155; font-size: 0.88rem; line-height: 1.6;">{documents_clean}</div>
 """
 
-    chevron_svg = get_svg_icon("chevron-down", size=14, color="#818CF8", extra_class="chevron-icon")
-    ext_link_svg = get_svg_icon("external-link", size=13, color="#A5B4FC")
-    info_icon_svg = get_svg_icon("info", size=14, color="#818CF8")
+    chevron_svg = get_svg_icon("chevron-down", size=14, color="#4F46E5", extra_class="chevron-icon")
+    ext_link_svg = get_svg_icon("external-link", size=13, color="#FFFFFF")
+    info_icon_svg = get_svg_icon("info", size=14, color="#4F46E5")
 
     card_html = f"""
 <div class="scheme-card">
@@ -995,8 +1028,8 @@ def render_scheme_card(row, method: str):
 {chevron_svg}
 </summary>
 <div class="drawer-content">
-<div style="font-weight: 600; color: #F8FAFC; margin-bottom: 6px;">Program Overview:</div>
-<div style="margin-bottom: 12px; color: #CBD5E1; font-size: 0.88rem; line-height: 1.5;">{full_desc_clean}</div>
+<div style="font-weight: 700; color: #0F172A; margin-bottom: 6px;">Program Overview:</div>
+<div style="margin-bottom: 14px; color: #334155; font-size: 0.88rem; line-height: 1.6;">{full_desc_clean}</div>
 {benefits_html}
 {eligibility_html}
 {application_html}
@@ -1019,7 +1052,7 @@ def render_scheme_card(row, method: str):
 <div class="drawer-item-val" style="font-family: 'JetBrains Mono', monospace; font-size: 0.76rem;">{html.escape(str(row.get('slug', row.get('scheme_id', 'N/A'))))}</div>
 </div>
 </div>
-{f'<div style="font-size: 0.72rem; font-weight: 600; text-transform: uppercase; color: #64748B; margin-top: 10px;">Classification Tags:</div><div class="drawer-tags">{tag_elements}</div>' if tag_elements else ''}
+{f'<div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; color: #64748B; margin-top: 12px;">Classification Tags:</div><div class="drawer-tags">{tag_elements}</div>' if tag_elements else ''}
 <div>
 <a href="{myscheme_url}" target="_blank" class="drawer-action-btn">
 <span>Check Official Portal</span>
@@ -1039,10 +1072,10 @@ def render_results(results: pd.DataFrame, method_name: str):
         search_icon = get_svg_icon("search", size=24, color="#64748B")
         render_html(
             f"""
-<div style="padding: 32px; border-radius: 14px; background: rgba(17, 24, 39, 0.5); border: 1px dashed rgba(255,255,255,0.08); text-align: center; color: #94A3B8;">
-<div style="margin-bottom: 8px;">{search_icon}</div>
-<div style="font-weight: 600; color: #F8FAFC; margin-bottom: 4px;">No matching schemes found</div>
-<div style="font-size: 0.84rem;">Try adjusting state or category filters, or rephrasing your search query.</div>
+<div style="padding: 36px; border-radius: 14px; background: #FFFFFF; border: 1.5px dashed #CBD5E1; text-align: center; color: #64748B; box-shadow: 0 1px 3px rgba(0,0,0,0.03);">
+<div style="margin-bottom: 10px;">{search_icon}</div>
+<div style="font-weight: 700; color: #0F172A; margin-bottom: 6px; font-size: 1.05rem;">No matching schemes found</div>
+<div style="font-size: 0.86rem; color: #475569;">Try adjusting state or category filters, or rephrasing your search query.</div>
 </div>
 """
         )
@@ -1058,63 +1091,95 @@ query_clean = query.strip() if query else ""
 
 if query_clean:
     if show_comparison:
-        # Comparison View
-        scale_icon = get_svg_icon("scale", size=16, color="#818CF8")
+        # Comparison View: Hybrid vs BM25 Lexical
+        scale_icon = get_svg_icon("scale", size=16, color="#4F46E5")
         render_html(
             f"""
-<div style="background: rgba(17, 24, 39, 0.6); border: 1px solid rgba(255,255,255,0.07); padding: 14px 18px; border-radius: 12px; margin-bottom: 24px; font-size: 0.88rem; color: #CBD5E1; display: flex; align-items: center; gap: 10px;">
+<div style="background: #FFFFFF; border: 1px solid #E2E8F0; padding: 14px 18px; border-radius: 12px; margin-bottom: 24px; font-size: 0.88rem; color: #334155; display: flex; align-items: center; gap: 10px; box-shadow: 0 1px 3px rgba(0,0,0,0.03);">
 {scale_icon}
 <div>
-<b>Comparative Benchmarking Active:</b> Comparing <b>Dense Semantic Retrieval</b> (understanding semantic intent) with <b>Keyword Lexical Matching</b> (token overlap).
+<b style="color: #0F172A;">Comparative Benchmarking Active:</b> Comparing <b style="color: #4F46E5;">Hybrid Fusion (BM25 + Semantic RRF)</b> with <b style="color: #D97706;">Okapi BM25 Lexical Search</b>.
 </div>
 </div>
 """
         )
 
-        col_sem, col_kw = st.columns(2)
+        col_hybrid, col_kw = st.columns(2)
 
-        with col_sem:
-            sparkles_icon = get_svg_icon("sparkles", size=18, color="#818CF8")
+        with col_hybrid:
+            sparkles_icon = get_svg_icon("sparkles", size=18, color="#4F46E5")
             render_html(
-                f'<div class="comp-header-sem">{sparkles_icon} Semantic Search (all-MiniLM-L6-v2)</div>'
+                f'<div class="comp-header-sem">{sparkles_icon} Hybrid Fusion (BM25 + Semantic RRF)</div>'
             )
-            sem_results = search_engine.semantic_search(
+            hybrid_results = search_engine.hybrid_search(
                 query_clean, k=num_results, state=state_filter, category=category_filter
             )
-            render_results(sem_results, "Semantic")
+            render_results(hybrid_results, "Hybrid")
 
         with col_kw:
-            tag_icon = get_svg_icon("tag", size=18, color="#F59E0B")
+            tag_icon = get_svg_icon("tag", size=18, color="#D97706")
             render_html(
-                f'<div class="comp-header-kw">{tag_icon} Keyword Search (Lexical Overlap)</div>'
+                f'<div class="comp-header-kw">{tag_icon} Okapi BM25 Lexical Retrieval</div>'
             )
-            kw_results = search_engine.keyword_search(
+            kw_results = search_engine.bm25_search(
                 query_clean, k=num_results, state=state_filter, category=category_filter
             )
-            render_results(kw_results, "Keyword")
+            render_results(kw_results, "BM25")
 
     else:
-        # Default Semantic View
+        # Extract and display zero-click intent filters
+        intent = search_engine.parse_query_intent(query_clean)
+        auto_detected_pills = []
+        if not state_filter and intent.get("detected_state"):
+            auto_detected_pills.append(f"State: <b>{html.escape(intent['detected_state'])}</b>")
+        if not category_filter and intent.get("detected_category"):
+            auto_detected_pills.append(f"Category: <b>{html.escape(intent['detected_category'])}</b>")
+
         col_header, col_stats = st.columns([3, 1])
         with col_header:
+            engine_label = "Hybrid Matches" if "Hybrid" in search_mode else ("Semantic Matches" if "Semantic" in search_mode else "BM25 Matches")
             render_html(
-                f'<div style="font-size: 1.05rem; font-weight: 600; color: #94A3B8; margin-bottom: 14px;">'
-                f'Top {num_results} Semantic Matches for: <span style="color: #F8FAFC;">"{html.escape(query_clean)}"</span>'
+                f'<div style="font-size: 1.05rem; font-weight: 600; color: #475569; margin-bottom: 10px;">'
+                f'Top {num_results} {engine_label} for: <span style="color: #0F172A; font-weight: 700;">"{html.escape(query_clean)}"</span>'
                 f'</div>'
             )
+            if auto_detected_pills:
+                target_svg = get_svg_icon("target", size=14, color="#4F46E5")
+                render_html(
+                    f'<div style="background: #EEF2FF; border: 1px solid #C7D2FE; padding: 6px 12px; border-radius: 8px; margin-bottom: 16px; font-size: 0.82rem; color: #3730A3; display: inline-flex; align-items: center; gap: 8px;">'
+                    f'{target_svg} <span><b>Zero-Click Intent Applied:</b> {" · ".join(auto_detected_pills)}</span>'
+                    f'</div>'
+                )
         with col_stats:
             active_filters = []
             if state_filter:
                 active_filters.append(f"State: {state_filter}")
+            elif intent.get("detected_state"):
+                active_filters.append(f"State (Auto): {intent['detected_state']}")
+
             if category_filter:
                 active_filters.append(f"Category: {category_filter}")
+            elif intent.get("detected_category"):
+                active_filters.append(f"Category (Auto): {intent['detected_category']}")
+
             if active_filters:
                 st.caption(f"Active Filters: {' · '.join(active_filters)}")
 
-        results = search_engine.semantic_search(
-            query_clean, k=num_results, state=state_filter, category=category_filter
-        )
-        render_results(results, "Semantic")
+        if "Hybrid" in search_mode:
+            results = search_engine.hybrid_search(
+                query_clean, k=num_results, state=state_filter, category=category_filter
+            )
+            render_results(results, "Hybrid")
+        elif "Semantic" in search_mode:
+            results = search_engine.semantic_search(
+                query_clean, k=num_results, state=state_filter, category=category_filter
+            )
+            render_results(results, "Semantic")
+        else:
+            results = search_engine.bm25_search(
+                query_clean, k=num_results, state=state_filter, category=category_filter
+            )
+            render_results(results, "BM25")
 
 else:
     # Empty Landing State with Feature Highlights
@@ -1122,7 +1187,7 @@ else:
     c1, c2, c3 = st.columns(3)
 
     with c1:
-        cpu_svg = get_svg_icon("cpu", size=20, color="#818CF8")
+        cpu_svg = get_svg_icon("cpu", size=20, color="#4F46E5")
         render_html(
             f"""
 <div class="feature-card">
@@ -1136,7 +1201,7 @@ Search using ordinary phrasing. Describe your life situation, education, or empl
         )
 
     with c2:
-        filter_svg = get_svg_icon("sliders", size=20, color="#818CF8")
+        filter_svg = get_svg_icon("sliders", size=20, color="#4F46E5")
         render_html(
             f"""
 <div class="feature-card">
@@ -1150,7 +1215,7 @@ Combine dense neural similarity with exact state and category restrictions acros
         )
 
     with c3:
-        zap_svg = get_svg_icon("zap", size=20, color="#818CF8")
+        zap_svg = get_svg_icon("zap", size=20, color="#4F46E5")
         render_html(
             f"""
 <div class="feature-card">

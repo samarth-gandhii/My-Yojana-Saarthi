@@ -1,0 +1,7003 @@
+{
+  "finance": [
+    "finance",
+    "financial"
+  ],
+  "financial": [
+    "finance",
+    "financial"
+  ],
+  "labour welfare": [
+    "labour welfare",
+    "social welfare",
+    "welfare",
+    "workers welfare"
+  ],
+  "social welfare": [
+    "labour welfare",
+    "social welfare",
+    "welfare",
+    "workers welfare"
+  ],
+  "welfare": [
+    "labour welfare",
+    "social welfare",
+    "welfare",
+    "workers welfare"
+  ],
+  "workers welfare": [
+    "labour welfare",
+    "social welfare",
+    "welfare",
+    "workers welfare"
+  ],
+  "building": [
+    "building",
+    "building construction",
+    "building worker",
+    "construction",
+    "construction work",
+    "construction worker",
+    "construction workers",
+    "employee",
+    "employees",
+    "worker",
+    "worker construction",
+    "workers"
+  ],
+  "building construction": [
+    "building",
+    "building construction",
+    "building worker",
+    "construction",
+    "construction work",
+    "construction worker",
+    "construction workers",
+    "employee",
+    "employees",
+    "worker",
+    "worker construction",
+    "workers"
+  ],
+  "building worker": [
+    "building",
+    "building construction",
+    "building worker",
+    "construction",
+    "construction work",
+    "construction worker",
+    "construction workers",
+    "employee",
+    "employees",
+    "worker",
+    "worker construction",
+    "workers"
+  ],
+  "construction": [
+    "building",
+    "building construction",
+    "building worker",
+    "construction",
+    "construction work",
+    "construction worker",
+    "construction workers",
+    "employee",
+    "employees",
+    "worker",
+    "worker construction",
+    "workers"
+  ],
+  "construction work": [
+    "building",
+    "building construction",
+    "building worker",
+    "construction",
+    "construction work",
+    "construction worker",
+    "construction workers",
+    "employee",
+    "employees",
+    "worker",
+    "worker construction",
+    "workers"
+  ],
+  "construction worker": [
+    "building",
+    "building construction",
+    "building worker",
+    "construction",
+    "construction work",
+    "construction worker",
+    "construction workers",
+    "employee",
+    "employees",
+    "worker",
+    "worker construction",
+    "workers"
+  ],
+  "construction workers": [
+    "building",
+    "building construction",
+    "building worker",
+    "construction",
+    "construction work",
+    "construction worker",
+    "construction workers",
+    "employee",
+    "employees",
+    "worker",
+    "worker construction",
+    "workers"
+  ],
+  "employee": [
+    "building",
+    "building construction",
+    "building worker",
+    "construction",
+    "construction work",
+    "construction worker",
+    "construction workers",
+    "employee",
+    "employees",
+    "worker",
+    "worker construction",
+    "workers"
+  ],
+  "employees": [
+    "building",
+    "building construction",
+    "building worker",
+    "construction",
+    "construction work",
+    "construction worker",
+    "construction workers",
+    "employee",
+    "employees",
+    "worker",
+    "worker construction",
+    "workers"
+  ],
+  "worker": [
+    "building",
+    "building construction",
+    "building worker",
+    "construction",
+    "construction work",
+    "construction worker",
+    "construction workers",
+    "employee",
+    "employees",
+    "worker",
+    "worker construction",
+    "workers"
+  ],
+  "worker construction": [
+    "building",
+    "building construction",
+    "building worker",
+    "construction",
+    "construction work",
+    "construction worker",
+    "construction workers",
+    "employee",
+    "employees",
+    "worker",
+    "worker construction",
+    "workers"
+  ],
+  "workers": [
+    "building",
+    "building construction",
+    "building worker",
+    "construction",
+    "construction work",
+    "construction worker",
+    "construction workers",
+    "employee",
+    "employees",
+    "worker",
+    "worker construction",
+    "workers"
+  ],
+  "education student": [
+    "education student",
+    "student",
+    "student studying",
+    "students",
+    "students belonging",
+    "students class",
+    "students studying",
+    "study",
+    "studying"
+  ],
+  "student": [
+    "education student",
+    "student",
+    "student studying",
+    "students",
+    "students belonging",
+    "students class",
+    "students studying",
+    "study",
+    "studying"
+  ],
+  "student studying": [
+    "education student",
+    "student",
+    "student studying",
+    "students",
+    "students belonging",
+    "students class",
+    "students studying",
+    "study",
+    "studying"
+  ],
+  "students": [
+    "education student",
+    "student",
+    "student studying",
+    "students",
+    "students belonging",
+    "students class",
+    "students studying",
+    "study",
+    "studying"
+  ],
+  "students belonging": [
+    "education student",
+    "student",
+    "student studying",
+    "students",
+    "students belonging",
+    "students class",
+    "students studying",
+    "study",
+    "studying"
+  ],
+  "students class": [
+    "education student",
+    "student",
+    "student studying",
+    "students",
+    "students belonging",
+    "students class",
+    "students studying",
+    "study",
+    "studying"
+  ],
+  "students studying": [
+    "education student",
+    "student",
+    "student studying",
+    "students",
+    "students belonging",
+    "students class",
+    "students studying",
+    "study",
+    "studying"
+  ],
+  "study": [
+    "education student",
+    "student",
+    "student studying",
+    "students",
+    "students belonging",
+    "students class",
+    "students studying",
+    "study",
+    "studying"
+  ],
+  "studying": [
+    "education student",
+    "student",
+    "student studying",
+    "students",
+    "students belonging",
+    "students class",
+    "students studying",
+    "study",
+    "studying"
+  ],
+  "education": [
+    "education",
+    "educational",
+    "school education"
+  ],
+  "educational": [
+    "education",
+    "educational",
+    "school education"
+  ],
+  "school education": [
+    "education",
+    "educational",
+    "school education"
+  ],
+  "class": [
+    "class",
+    "class class",
+    "classes"
+  ],
+  "class class": [
+    "class",
+    "class class",
+    "classes"
+  ],
+  "classes": [
+    "class",
+    "class class",
+    "classes"
+  ],
+  "agricultural": [
+    "agricultural",
+    "agricultural land",
+    "agriculture",
+    "agriculture farmer",
+    "agriculture farmers",
+    "crops",
+    "farmer",
+    "farmers"
+  ],
+  "agricultural land": [
+    "agricultural",
+    "agricultural land",
+    "agriculture",
+    "agriculture farmer",
+    "agriculture farmers",
+    "crops",
+    "farmer",
+    "farmers"
+  ],
+  "agriculture": [
+    "agricultural",
+    "agricultural land",
+    "agriculture",
+    "agriculture farmer",
+    "agriculture farmers",
+    "crops",
+    "farmer",
+    "farmers"
+  ],
+  "agriculture farmer": [
+    "agricultural",
+    "agricultural land",
+    "agriculture",
+    "agriculture farmer",
+    "agriculture farmers",
+    "crops",
+    "farmer",
+    "farmers"
+  ],
+  "agriculture farmers": [
+    "agricultural",
+    "agricultural land",
+    "agriculture",
+    "agriculture farmer",
+    "agriculture farmers",
+    "crops",
+    "farmer",
+    "farmers"
+  ],
+  "crops": [
+    "agricultural",
+    "agricultural land",
+    "agriculture",
+    "agriculture farmer",
+    "agriculture farmers",
+    "crops",
+    "farmer",
+    "farmers"
+  ],
+  "farmer": [
+    "agricultural",
+    "agricultural land",
+    "agriculture",
+    "agriculture farmer",
+    "agriculture farmers",
+    "crops",
+    "farmer",
+    "farmers"
+  ],
+  "farmers": [
+    "agricultural",
+    "agricultural land",
+    "agriculture",
+    "agriculture farmer",
+    "agriculture farmers",
+    "crops",
+    "farmer",
+    "farmers"
+  ],
+  "labor": [
+    "labor",
+    "labour",
+    "worker labour"
+  ],
+  "labour": [
+    "labor",
+    "labour",
+    "worker labour"
+  ],
+  "worker labour": [
+    "labor",
+    "labour",
+    "worker labour"
+  ],
+  "employed": [
+    "employed",
+    "employer",
+    "employment"
+  ],
+  "employer": [
+    "employed",
+    "employer",
+    "employment"
+  ],
+  "employment": [
+    "employed",
+    "employer",
+    "employment"
+  ],
+  "college": [
+    "college",
+    "colleges",
+    "educational institution",
+    "educational institutions",
+    "institution",
+    "institutional",
+    "institutions",
+    "recognized institution",
+    "recognized university",
+    "universities",
+    "university",
+    "university institution"
+  ],
+  "colleges": [
+    "college",
+    "colleges",
+    "educational institution",
+    "educational institutions",
+    "institution",
+    "institutional",
+    "institutions",
+    "recognized institution",
+    "recognized university",
+    "universities",
+    "university",
+    "university institution"
+  ],
+  "educational institution": [
+    "college",
+    "colleges",
+    "educational institution",
+    "educational institutions",
+    "institution",
+    "institutional",
+    "institutions",
+    "recognized institution",
+    "recognized university",
+    "universities",
+    "university",
+    "university institution"
+  ],
+  "educational institutions": [
+    "college",
+    "colleges",
+    "educational institution",
+    "educational institutions",
+    "institution",
+    "institutional",
+    "institutions",
+    "recognized institution",
+    "recognized university",
+    "universities",
+    "university",
+    "university institution"
+  ],
+  "institution": [
+    "college",
+    "colleges",
+    "educational institution",
+    "educational institutions",
+    "institution",
+    "institutional",
+    "institutions",
+    "recognized institution",
+    "recognized university",
+    "universities",
+    "university",
+    "university institution"
+  ],
+  "institutional": [
+    "college",
+    "colleges",
+    "educational institution",
+    "educational institutions",
+    "institution",
+    "institutional",
+    "institutions",
+    "recognized institution",
+    "recognized university",
+    "universities",
+    "university",
+    "university institution"
+  ],
+  "institutions": [
+    "college",
+    "colleges",
+    "educational institution",
+    "educational institutions",
+    "institution",
+    "institutional",
+    "institutions",
+    "recognized institution",
+    "recognized university",
+    "universities",
+    "university",
+    "university institution"
+  ],
+  "recognized institution": [
+    "college",
+    "colleges",
+    "educational institution",
+    "educational institutions",
+    "institution",
+    "institutional",
+    "institutions",
+    "recognized institution",
+    "recognized university",
+    "universities",
+    "university",
+    "university institution"
+  ],
+  "recognized university": [
+    "college",
+    "colleges",
+    "educational institution",
+    "educational institutions",
+    "institution",
+    "institutional",
+    "institutions",
+    "recognized institution",
+    "recognized university",
+    "universities",
+    "university",
+    "university institution"
+  ],
+  "universities": [
+    "college",
+    "colleges",
+    "educational institution",
+    "educational institutions",
+    "institution",
+    "institutional",
+    "institutions",
+    "recognized institution",
+    "recognized university",
+    "universities",
+    "university",
+    "university institution"
+  ],
+  "university": [
+    "college",
+    "colleges",
+    "educational institution",
+    "educational institutions",
+    "institution",
+    "institutional",
+    "institutions",
+    "recognized institution",
+    "recognized university",
+    "universities",
+    "university",
+    "university institution"
+  ],
+  "university institution": [
+    "college",
+    "colleges",
+    "educational institution",
+    "educational institutions",
+    "institution",
+    "institutional",
+    "institutions",
+    "recognized institution",
+    "recognized university",
+    "universities",
+    "university",
+    "university institution"
+  ],
+  "school": [
+    "school",
+    "schools"
+  ],
+  "schools": [
+    "school",
+    "schools"
+  ],
+  "research": [
+    "research",
+    "research work",
+    "studies"
+  ],
+  "research work": [
+    "research",
+    "research work",
+    "studies"
+  ],
+  "studies": [
+    "research",
+    "research work",
+    "studies"
+  ],
+  "pursue": [
+    "pursue",
+    "pursuing"
+  ],
+  "pursuing": [
+    "pursue",
+    "pursuing"
+  ],
+  "fund": [
+    "fund",
+    "funds"
+  ],
+  "funds": [
+    "fund",
+    "funds"
+  ],
+  "institute": [
+    "institute",
+    "institutes"
+  ],
+  "institutes": [
+    "institute",
+    "institutes"
+  ],
+  "farm": [
+    "farm",
+    "farming"
+  ],
+  "farming": [
+    "farm",
+    "farming"
+  ],
+  "registered worker": [
+    "registered worker",
+    "registered workers",
+    "worker registered",
+    "workers registered"
+  ],
+  "registered workers": [
+    "registered worker",
+    "registered workers",
+    "worker registered",
+    "workers registered"
+  ],
+  "worker registered": [
+    "registered worker",
+    "registered workers",
+    "worker registered",
+    "workers registered"
+  ],
+  "workers registered": [
+    "registered worker",
+    "registered workers",
+    "worker registered",
+    "workers registered"
+  ],
+  "self employed": [
+    "self employed",
+    "self employment"
+  ],
+  "self employment": [
+    "self employed",
+    "self employment"
+  ],
+  "employment opportunities": [
+    "employment opportunities",
+    "opportunities",
+    "opportunity"
+  ],
+  "opportunities": [
+    "employment opportunities",
+    "opportunities",
+    "opportunity"
+  ],
+  "opportunity": [
+    "employment opportunities",
+    "opportunities",
+    "opportunity"
+  ],
+  "girl student": [
+    "girl student",
+    "girl students"
+  ],
+  "girl students": [
+    "girl student",
+    "girl students"
+  ],
+  "funded": [
+    "funded",
+    "funding"
+  ],
+  "funding": [
+    "funded",
+    "funding"
+  ],
+  "financial institution": [
+    "financial institution",
+    "financial institutions"
+  ],
+  "financial institutions": [
+    "financial institution",
+    "financial institutions"
+  ],
+  "teacher": [
+    "teacher",
+    "teachers"
+  ],
+  "teachers": [
+    "teacher",
+    "teachers"
+  ],
+  "member": [
+    "member",
+    "members",
+    "membership",
+    "registered",
+    "registered member"
+  ],
+  "members": [
+    "member",
+    "members",
+    "membership",
+    "registered",
+    "registered member"
+  ],
+  "membership": [
+    "member",
+    "members",
+    "membership",
+    "registered",
+    "registered member"
+  ],
+  "registered": [
+    "member",
+    "members",
+    "membership",
+    "registered",
+    "registered member"
+  ],
+  "registered member": [
+    "member",
+    "members",
+    "membership",
+    "registered",
+    "registered member"
+  ],
+  "beneficiaries": [
+    "beneficiaries",
+    "beneficiary",
+    "beneficiary bank",
+    "beneficiary belong",
+    "beneficiary resident"
+  ],
+  "beneficiary": [
+    "beneficiaries",
+    "beneficiary",
+    "beneficiary bank",
+    "beneficiary belong",
+    "beneficiary resident"
+  ],
+  "beneficiary bank": [
+    "beneficiaries",
+    "beneficiary",
+    "beneficiary bank",
+    "beneficiary belong",
+    "beneficiary resident"
+  ],
+  "beneficiary belong": [
+    "beneficiaries",
+    "beneficiary",
+    "beneficiary bank",
+    "beneficiary belong",
+    "beneficiary resident"
+  ],
+  "beneficiary resident": [
+    "beneficiaries",
+    "beneficiary",
+    "beneficiary bank",
+    "beneficiary belong",
+    "beneficiary resident"
+  ],
+  "home": [
+    "home",
+    "homes",
+    "house",
+    "houses",
+    "housing",
+    "native",
+    "native resident",
+    "residence",
+    "resident",
+    "residential",
+    "residents",
+    "residing"
+  ],
+  "homes": [
+    "home",
+    "homes",
+    "house",
+    "houses",
+    "housing",
+    "native",
+    "native resident",
+    "residence",
+    "resident",
+    "residential",
+    "residents",
+    "residing"
+  ],
+  "house": [
+    "home",
+    "homes",
+    "house",
+    "houses",
+    "housing",
+    "native",
+    "native resident",
+    "residence",
+    "resident",
+    "residential",
+    "residents",
+    "residing"
+  ],
+  "houses": [
+    "home",
+    "homes",
+    "house",
+    "houses",
+    "housing",
+    "native",
+    "native resident",
+    "residence",
+    "resident",
+    "residential",
+    "residents",
+    "residing"
+  ],
+  "housing": [
+    "home",
+    "homes",
+    "house",
+    "houses",
+    "housing",
+    "native",
+    "native resident",
+    "residence",
+    "resident",
+    "residential",
+    "residents",
+    "residing"
+  ],
+  "native": [
+    "home",
+    "homes",
+    "house",
+    "houses",
+    "housing",
+    "native",
+    "native resident",
+    "residence",
+    "resident",
+    "residential",
+    "residents",
+    "residing"
+  ],
+  "native resident": [
+    "home",
+    "homes",
+    "house",
+    "houses",
+    "housing",
+    "native",
+    "native resident",
+    "residence",
+    "resident",
+    "residential",
+    "residents",
+    "residing"
+  ],
+  "residence": [
+    "home",
+    "homes",
+    "house",
+    "houses",
+    "housing",
+    "native",
+    "native resident",
+    "residence",
+    "resident",
+    "residential",
+    "residents",
+    "residing"
+  ],
+  "resident": [
+    "home",
+    "homes",
+    "house",
+    "houses",
+    "housing",
+    "native",
+    "native resident",
+    "residence",
+    "resident",
+    "residential",
+    "residents",
+    "residing"
+  ],
+  "residential": [
+    "home",
+    "homes",
+    "house",
+    "houses",
+    "housing",
+    "native",
+    "native resident",
+    "residence",
+    "resident",
+    "residential",
+    "residents",
+    "residing"
+  ],
+  "residents": [
+    "home",
+    "homes",
+    "house",
+    "houses",
+    "housing",
+    "native",
+    "native resident",
+    "residence",
+    "resident",
+    "residential",
+    "residents",
+    "residing"
+  ],
+  "residing": [
+    "home",
+    "homes",
+    "house",
+    "houses",
+    "housing",
+    "native",
+    "native resident",
+    "residence",
+    "resident",
+    "residential",
+    "residents",
+    "residing"
+  ],
+  "annual income": [
+    "annual income",
+    "families",
+    "family",
+    "family income",
+    "family member",
+    "family members",
+    "father",
+    "guardian",
+    "guardians",
+    "income",
+    "income family",
+    "income parents",
+    "member family",
+    "monthly income",
+    "mother",
+    "mothers",
+    "parent",
+    "parent guardian",
+    "parents",
+    "parents guardians"
+  ],
+  "families": [
+    "annual income",
+    "families",
+    "family",
+    "family income",
+    "family member",
+    "family members",
+    "father",
+    "guardian",
+    "guardians",
+    "income",
+    "income family",
+    "income parents",
+    "member family",
+    "monthly income",
+    "mother",
+    "mothers",
+    "parent",
+    "parent guardian",
+    "parents",
+    "parents guardians"
+  ],
+  "family": [
+    "annual income",
+    "families",
+    "family",
+    "family income",
+    "family member",
+    "family members",
+    "father",
+    "guardian",
+    "guardians",
+    "income",
+    "income family",
+    "income parents",
+    "member family",
+    "monthly income",
+    "mother",
+    "mothers",
+    "parent",
+    "parent guardian",
+    "parents",
+    "parents guardians"
+  ],
+  "family income": [
+    "annual income",
+    "families",
+    "family",
+    "family income",
+    "family member",
+    "family members",
+    "father",
+    "guardian",
+    "guardians",
+    "income",
+    "income family",
+    "income parents",
+    "member family",
+    "monthly income",
+    "mother",
+    "mothers",
+    "parent",
+    "parent guardian",
+    "parents",
+    "parents guardians"
+  ],
+  "family member": [
+    "annual income",
+    "families",
+    "family",
+    "family income",
+    "family member",
+    "family members",
+    "father",
+    "guardian",
+    "guardians",
+    "income",
+    "income family",
+    "income parents",
+    "member family",
+    "monthly income",
+    "mother",
+    "mothers",
+    "parent",
+    "parent guardian",
+    "parents",
+    "parents guardians"
+  ],
+  "family members": [
+    "annual income",
+    "families",
+    "family",
+    "family income",
+    "family member",
+    "family members",
+    "father",
+    "guardian",
+    "guardians",
+    "income",
+    "income family",
+    "income parents",
+    "member family",
+    "monthly income",
+    "mother",
+    "mothers",
+    "parent",
+    "parent guardian",
+    "parents",
+    "parents guardians"
+  ],
+  "father": [
+    "annual income",
+    "families",
+    "family",
+    "family income",
+    "family member",
+    "family members",
+    "father",
+    "guardian",
+    "guardians",
+    "income",
+    "income family",
+    "income parents",
+    "member family",
+    "monthly income",
+    "mother",
+    "mothers",
+    "parent",
+    "parent guardian",
+    "parents",
+    "parents guardians"
+  ],
+  "guardian": [
+    "annual income",
+    "families",
+    "family",
+    "family income",
+    "family member",
+    "family members",
+    "father",
+    "guardian",
+    "guardians",
+    "income",
+    "income family",
+    "income parents",
+    "member family",
+    "monthly income",
+    "mother",
+    "mothers",
+    "parent",
+    "parent guardian",
+    "parents",
+    "parents guardians"
+  ],
+  "guardians": [
+    "annual income",
+    "families",
+    "family",
+    "family income",
+    "family member",
+    "family members",
+    "father",
+    "guardian",
+    "guardians",
+    "income",
+    "income family",
+    "income parents",
+    "member family",
+    "monthly income",
+    "mother",
+    "mothers",
+    "parent",
+    "parent guardian",
+    "parents",
+    "parents guardians"
+  ],
+  "income": [
+    "annual income",
+    "families",
+    "family",
+    "family income",
+    "family member",
+    "family members",
+    "father",
+    "guardian",
+    "guardians",
+    "income",
+    "income family",
+    "income parents",
+    "member family",
+    "monthly income",
+    "mother",
+    "mothers",
+    "parent",
+    "parent guardian",
+    "parents",
+    "parents guardians"
+  ],
+  "income family": [
+    "annual income",
+    "families",
+    "family",
+    "family income",
+    "family member",
+    "family members",
+    "father",
+    "guardian",
+    "guardians",
+    "income",
+    "income family",
+    "income parents",
+    "member family",
+    "monthly income",
+    "mother",
+    "mothers",
+    "parent",
+    "parent guardian",
+    "parents",
+    "parents guardians"
+  ],
+  "income parents": [
+    "annual income",
+    "families",
+    "family",
+    "family income",
+    "family member",
+    "family members",
+    "father",
+    "guardian",
+    "guardians",
+    "income",
+    "income family",
+    "income parents",
+    "member family",
+    "monthly income",
+    "mother",
+    "mothers",
+    "parent",
+    "parent guardian",
+    "parents",
+    "parents guardians"
+  ],
+  "member family": [
+    "annual income",
+    "families",
+    "family",
+    "family income",
+    "family member",
+    "family members",
+    "father",
+    "guardian",
+    "guardians",
+    "income",
+    "income family",
+    "income parents",
+    "member family",
+    "monthly income",
+    "mother",
+    "mothers",
+    "parent",
+    "parent guardian",
+    "parents",
+    "parents guardians"
+  ],
+  "monthly income": [
+    "annual income",
+    "families",
+    "family",
+    "family income",
+    "family member",
+    "family members",
+    "father",
+    "guardian",
+    "guardians",
+    "income",
+    "income family",
+    "income parents",
+    "member family",
+    "monthly income",
+    "mother",
+    "mothers",
+    "parent",
+    "parent guardian",
+    "parents",
+    "parents guardians"
+  ],
+  "mother": [
+    "annual income",
+    "families",
+    "family",
+    "family income",
+    "family member",
+    "family members",
+    "father",
+    "guardian",
+    "guardians",
+    "income",
+    "income family",
+    "income parents",
+    "member family",
+    "monthly income",
+    "mother",
+    "mothers",
+    "parent",
+    "parent guardian",
+    "parents",
+    "parents guardians"
+  ],
+  "mothers": [
+    "annual income",
+    "families",
+    "family",
+    "family income",
+    "family member",
+    "family members",
+    "father",
+    "guardian",
+    "guardians",
+    "income",
+    "income family",
+    "income parents",
+    "member family",
+    "monthly income",
+    "mother",
+    "mothers",
+    "parent",
+    "parent guardian",
+    "parents",
+    "parents guardians"
+  ],
+  "parent": [
+    "annual income",
+    "families",
+    "family",
+    "family income",
+    "family member",
+    "family members",
+    "father",
+    "guardian",
+    "guardians",
+    "income",
+    "income family",
+    "income parents",
+    "member family",
+    "monthly income",
+    "mother",
+    "mothers",
+    "parent",
+    "parent guardian",
+    "parents",
+    "parents guardians"
+  ],
+  "parent guardian": [
+    "annual income",
+    "families",
+    "family",
+    "family income",
+    "family member",
+    "family members",
+    "father",
+    "guardian",
+    "guardians",
+    "income",
+    "income family",
+    "income parents",
+    "member family",
+    "monthly income",
+    "mother",
+    "mothers",
+    "parent",
+    "parent guardian",
+    "parents",
+    "parents guardians"
+  ],
+  "parents": [
+    "annual income",
+    "families",
+    "family",
+    "family income",
+    "family member",
+    "family members",
+    "father",
+    "guardian",
+    "guardians",
+    "income",
+    "income family",
+    "income parents",
+    "member family",
+    "monthly income",
+    "mother",
+    "mothers",
+    "parent",
+    "parent guardian",
+    "parents",
+    "parents guardians"
+  ],
+  "parents guardians": [
+    "annual income",
+    "families",
+    "family",
+    "family income",
+    "family member",
+    "family members",
+    "father",
+    "guardian",
+    "guardians",
+    "income",
+    "income family",
+    "income parents",
+    "member family",
+    "monthly income",
+    "mother",
+    "mothers",
+    "parent",
+    "parent guardian",
+    "parents",
+    "parents guardians"
+  ],
+  "assistance subsidy": [
+    "assistance subsidy",
+    "capital subsidy",
+    "cost subsidy",
+    "maximum subsidy",
+    "subsidies",
+    "subsidy",
+    "subsidy reimbursement"
+  ],
+  "capital subsidy": [
+    "assistance subsidy",
+    "capital subsidy",
+    "cost subsidy",
+    "maximum subsidy",
+    "subsidies",
+    "subsidy",
+    "subsidy reimbursement"
+  ],
+  "cost subsidy": [
+    "assistance subsidy",
+    "capital subsidy",
+    "cost subsidy",
+    "maximum subsidy",
+    "subsidies",
+    "subsidy",
+    "subsidy reimbursement"
+  ],
+  "maximum subsidy": [
+    "assistance subsidy",
+    "capital subsidy",
+    "cost subsidy",
+    "maximum subsidy",
+    "subsidies",
+    "subsidy",
+    "subsidy reimbursement"
+  ],
+  "subsidies": [
+    "assistance subsidy",
+    "capital subsidy",
+    "cost subsidy",
+    "maximum subsidy",
+    "subsidies",
+    "subsidy",
+    "subsidy reimbursement"
+  ],
+  "subsidy": [
+    "assistance subsidy",
+    "capital subsidy",
+    "cost subsidy",
+    "maximum subsidy",
+    "subsidies",
+    "subsidy",
+    "subsidy reimbursement"
+  ],
+  "subsidy reimbursement": [
+    "assistance subsidy",
+    "capital subsidy",
+    "cost subsidy",
+    "maximum subsidy",
+    "subsidies",
+    "subsidy",
+    "subsidy reimbursement"
+  ],
+  "bank loan": [
+    "bank loan",
+    "loan",
+    "loans"
+  ],
+  "loan": [
+    "bank loan",
+    "loan",
+    "loans"
+  ],
+  "loans": [
+    "bank loan",
+    "loan",
+    "loans"
+  ],
+  "bank": [
+    "bank",
+    "bank account",
+    "bank accounts",
+    "banks"
+  ],
+  "bank account": [
+    "bank",
+    "bank account",
+    "bank accounts",
+    "banks"
+  ],
+  "bank accounts": [
+    "bank",
+    "bank account",
+    "bank accounts",
+    "banks"
+  ],
+  "banks": [
+    "bank",
+    "bank account",
+    "bank accounts",
+    "banks"
+  ],
+  "account": [
+    "account",
+    "accounts"
+  ],
+  "accounts": [
+    "account",
+    "accounts"
+  ],
+  "reimbursed": [
+    "reimbursed",
+    "reimbursement"
+  ],
+  "reimbursement": [
+    "reimbursed",
+    "reimbursement"
+  ],
+  "payment": [
+    "payment",
+    "payments",
+    "repayment"
+  ],
+  "payments": [
+    "payment",
+    "payments",
+    "repayment"
+  ],
+  "repayment": [
+    "payment",
+    "payments",
+    "repayment"
+  ],
+  "capital investment": [
+    "capital investment",
+    "investment",
+    "investments"
+  ],
+  "investment": [
+    "capital investment",
+    "investment",
+    "investments"
+  ],
+  "investments": [
+    "capital investment",
+    "investment",
+    "investments"
+  ],
+  "mukhyamantri": [
+    "mukhyamantri",
+    "sahayata",
+    "sahayata yojana",
+    "yojana",
+    "yojana mukhyamantri"
+  ],
+  "sahayata": [
+    "mukhyamantri",
+    "sahayata",
+    "sahayata yojana",
+    "yojana",
+    "yojana mukhyamantri"
+  ],
+  "sahayata yojana": [
+    "mukhyamantri",
+    "sahayata",
+    "sahayata yojana",
+    "yojana",
+    "yojana mukhyamantri"
+  ],
+  "yojana": [
+    "mukhyamantri",
+    "sahayata",
+    "sahayata yojana",
+    "yojana",
+    "yojana mukhyamantri"
+  ],
+  "yojana mukhyamantri": [
+    "mukhyamantri",
+    "sahayata",
+    "sahayata yojana",
+    "yojana",
+    "yojana mukhyamantri"
+  ],
+  "exceed": [
+    "exceed",
+    "exceeding",
+    "limit",
+    "maximum",
+    "maximum limit"
+  ],
+  "exceeding": [
+    "exceed",
+    "exceeding",
+    "limit",
+    "maximum",
+    "maximum limit"
+  ],
+  "limit": [
+    "exceed",
+    "exceeding",
+    "limit",
+    "maximum",
+    "maximum limit"
+  ],
+  "maximum": [
+    "exceed",
+    "exceeding",
+    "limit",
+    "maximum",
+    "maximum limit"
+  ],
+  "maximum limit": [
+    "exceed",
+    "exceeding",
+    "limit",
+    "maximum",
+    "maximum limit"
+  ],
+  "schedule": [
+    "schedule",
+    "scheduled"
+  ],
+  "scheduled": [
+    "schedule",
+    "scheduled"
+  ],
+  "develop": [
+    "develop",
+    "developed",
+    "development",
+    "development training"
+  ],
+  "developed": [
+    "develop",
+    "developed",
+    "development",
+    "development training"
+  ],
+  "development": [
+    "develop",
+    "developed",
+    "development",
+    "development training"
+  ],
+  "development training": [
+    "develop",
+    "developed",
+    "development",
+    "development training"
+  ],
+  "time": [
+    "time",
+    "time time",
+    "times"
+  ],
+  "time time": [
+    "time",
+    "time time",
+    "times"
+  ],
+  "times": [
+    "time",
+    "time time",
+    "times"
+  ],
+  "disabilities": [
+    "disabilities",
+    "disability",
+    "disability pension",
+    "family pension",
+    "handicapped",
+    "monthly pension",
+    "pension",
+    "pensioner",
+    "permanent disability",
+    "person disability",
+    "persons disabilities",
+    "widow pension"
+  ],
+  "disability": [
+    "disabilities",
+    "disability",
+    "disability pension",
+    "family pension",
+    "handicapped",
+    "monthly pension",
+    "pension",
+    "pensioner",
+    "permanent disability",
+    "person disability",
+    "persons disabilities",
+    "widow pension"
+  ],
+  "disability pension": [
+    "disabilities",
+    "disability",
+    "disability pension",
+    "family pension",
+    "handicapped",
+    "monthly pension",
+    "pension",
+    "pensioner",
+    "permanent disability",
+    "person disability",
+    "persons disabilities",
+    "widow pension"
+  ],
+  "family pension": [
+    "disabilities",
+    "disability",
+    "disability pension",
+    "family pension",
+    "handicapped",
+    "monthly pension",
+    "pension",
+    "pensioner",
+    "permanent disability",
+    "person disability",
+    "persons disabilities",
+    "widow pension"
+  ],
+  "handicapped": [
+    "disabilities",
+    "disability",
+    "disability pension",
+    "family pension",
+    "handicapped",
+    "monthly pension",
+    "pension",
+    "pensioner",
+    "permanent disability",
+    "person disability",
+    "persons disabilities",
+    "widow pension"
+  ],
+  "monthly pension": [
+    "disabilities",
+    "disability",
+    "disability pension",
+    "family pension",
+    "handicapped",
+    "monthly pension",
+    "pension",
+    "pensioner",
+    "permanent disability",
+    "person disability",
+    "persons disabilities",
+    "widow pension"
+  ],
+  "pension": [
+    "disabilities",
+    "disability",
+    "disability pension",
+    "family pension",
+    "handicapped",
+    "monthly pension",
+    "pension",
+    "pensioner",
+    "permanent disability",
+    "person disability",
+    "persons disabilities",
+    "widow pension"
+  ],
+  "pensioner": [
+    "disabilities",
+    "disability",
+    "disability pension",
+    "family pension",
+    "handicapped",
+    "monthly pension",
+    "pension",
+    "pensioner",
+    "permanent disability",
+    "person disability",
+    "persons disabilities",
+    "widow pension"
+  ],
+  "permanent disability": [
+    "disabilities",
+    "disability",
+    "disability pension",
+    "family pension",
+    "handicapped",
+    "monthly pension",
+    "pension",
+    "pensioner",
+    "permanent disability",
+    "person disability",
+    "persons disabilities",
+    "widow pension"
+  ],
+  "person disability": [
+    "disabilities",
+    "disability",
+    "disability pension",
+    "family pension",
+    "handicapped",
+    "monthly pension",
+    "pension",
+    "pensioner",
+    "permanent disability",
+    "person disability",
+    "persons disabilities",
+    "widow pension"
+  ],
+  "persons disabilities": [
+    "disabilities",
+    "disability",
+    "disability pension",
+    "family pension",
+    "handicapped",
+    "monthly pension",
+    "pension",
+    "pensioner",
+    "permanent disability",
+    "person disability",
+    "persons disabilities",
+    "widow pension"
+  ],
+  "widow pension": [
+    "disabilities",
+    "disability",
+    "disability pension",
+    "family pension",
+    "handicapped",
+    "monthly pension",
+    "pension",
+    "pensioner",
+    "permanent disability",
+    "person disability",
+    "persons disabilities",
+    "widow pension"
+  ],
+  "female": [
+    "female",
+    "male",
+    "male female",
+    "woman",
+    "women"
+  ],
+  "male": [
+    "female",
+    "male",
+    "male female",
+    "woman",
+    "women"
+  ],
+  "male female": [
+    "female",
+    "male",
+    "male female",
+    "woman",
+    "women"
+  ],
+  "woman": [
+    "female",
+    "male",
+    "male female",
+    "woman",
+    "women"
+  ],
+  "women": [
+    "female",
+    "male",
+    "male female",
+    "woman",
+    "women"
+  ],
+  "actual cost": [
+    "actual cost",
+    "cost",
+    "costs",
+    "fee",
+    "fees",
+    "free",
+    "free cost",
+    "price",
+    "total cost"
+  ],
+  "cost": [
+    "actual cost",
+    "cost",
+    "costs",
+    "fee",
+    "fees",
+    "free",
+    "free cost",
+    "price",
+    "total cost"
+  ],
+  "costs": [
+    "actual cost",
+    "cost",
+    "costs",
+    "fee",
+    "fees",
+    "free",
+    "free cost",
+    "price",
+    "total cost"
+  ],
+  "fee": [
+    "actual cost",
+    "cost",
+    "costs",
+    "fee",
+    "fees",
+    "free",
+    "free cost",
+    "price",
+    "total cost"
+  ],
+  "fees": [
+    "actual cost",
+    "cost",
+    "costs",
+    "fee",
+    "fees",
+    "free",
+    "free cost",
+    "price",
+    "total cost"
+  ],
+  "free": [
+    "actual cost",
+    "cost",
+    "costs",
+    "fee",
+    "fees",
+    "free",
+    "free cost",
+    "price",
+    "total cost"
+  ],
+  "free cost": [
+    "actual cost",
+    "cost",
+    "costs",
+    "fee",
+    "fees",
+    "free",
+    "free cost",
+    "price",
+    "total cost"
+  ],
+  "price": [
+    "actual cost",
+    "cost",
+    "costs",
+    "fee",
+    "fees",
+    "free",
+    "free cost",
+    "price",
+    "total cost"
+  ],
+  "total cost": [
+    "actual cost",
+    "cost",
+    "costs",
+    "fee",
+    "fees",
+    "free",
+    "free cost",
+    "price",
+    "total cost"
+  ],
+  "education scholarship": [
+    "education scholarship",
+    "matric scholarship",
+    "scholarship",
+    "scholarship student",
+    "scholarships",
+    "student scholarship"
+  ],
+  "matric scholarship": [
+    "education scholarship",
+    "matric scholarship",
+    "scholarship",
+    "scholarship student",
+    "scholarships",
+    "student scholarship"
+  ],
+  "scholarship": [
+    "education scholarship",
+    "matric scholarship",
+    "scholarship",
+    "scholarship student",
+    "scholarships",
+    "student scholarship"
+  ],
+  "scholarship student": [
+    "education scholarship",
+    "matric scholarship",
+    "scholarship",
+    "scholarship student",
+    "scholarships",
+    "student scholarship"
+  ],
+  "scholarships": [
+    "education scholarship",
+    "matric scholarship",
+    "scholarship",
+    "scholarship student",
+    "scholarships",
+    "student scholarship"
+  ],
+  "student scholarship": [
+    "education scholarship",
+    "matric scholarship",
+    "scholarship",
+    "scholarship student",
+    "scholarships",
+    "student scholarship"
+  ],
+  "skill": [
+    "skill",
+    "skill development",
+    "skill training",
+    "skills",
+    "trained",
+    "training",
+    "training skill"
+  ],
+  "skill development": [
+    "skill",
+    "skill development",
+    "skill training",
+    "skills",
+    "trained",
+    "training",
+    "training skill"
+  ],
+  "skill training": [
+    "skill",
+    "skill development",
+    "skill training",
+    "skills",
+    "trained",
+    "training",
+    "training skill"
+  ],
+  "skills": [
+    "skill",
+    "skill development",
+    "skill training",
+    "skills",
+    "trained",
+    "training",
+    "training skill"
+  ],
+  "trained": [
+    "skill",
+    "skill development",
+    "skill training",
+    "skills",
+    "trained",
+    "training",
+    "training skill"
+  ],
+  "training": [
+    "skill",
+    "skill development",
+    "skill training",
+    "skills",
+    "trained",
+    "training",
+    "training skill"
+  ],
+  "training skill": [
+    "skill",
+    "skill development",
+    "skill training",
+    "skills",
+    "trained",
+    "training",
+    "training skill"
+  ],
+  "support": [
+    "support",
+    "supported",
+    "supporting",
+    "supports"
+  ],
+  "supported": [
+    "support",
+    "supported",
+    "supporting",
+    "supports"
+  ],
+  "supporting": [
+    "support",
+    "supported",
+    "supporting",
+    "supports"
+  ],
+  "supports": [
+    "support",
+    "supported",
+    "supporting",
+    "supports"
+  ],
+  "boys": [
+    "boys",
+    "boys girls",
+    "child",
+    "children",
+    "daughter",
+    "daughters",
+    "girl",
+    "girl child",
+    "girl children",
+    "girls",
+    "son daughter"
+  ],
+  "boys girls": [
+    "boys",
+    "boys girls",
+    "child",
+    "children",
+    "daughter",
+    "daughters",
+    "girl",
+    "girl child",
+    "girl children",
+    "girls",
+    "son daughter"
+  ],
+  "child": [
+    "boys",
+    "boys girls",
+    "child",
+    "children",
+    "daughter",
+    "daughters",
+    "girl",
+    "girl child",
+    "girl children",
+    "girls",
+    "son daughter"
+  ],
+  "children": [
+    "boys",
+    "boys girls",
+    "child",
+    "children",
+    "daughter",
+    "daughters",
+    "girl",
+    "girl child",
+    "girl children",
+    "girls",
+    "son daughter"
+  ],
+  "daughter": [
+    "boys",
+    "boys girls",
+    "child",
+    "children",
+    "daughter",
+    "daughters",
+    "girl",
+    "girl child",
+    "girl children",
+    "girls",
+    "son daughter"
+  ],
+  "daughters": [
+    "boys",
+    "boys girls",
+    "child",
+    "children",
+    "daughter",
+    "daughters",
+    "girl",
+    "girl child",
+    "girl children",
+    "girls",
+    "son daughter"
+  ],
+  "girl": [
+    "boys",
+    "boys girls",
+    "child",
+    "children",
+    "daughter",
+    "daughters",
+    "girl",
+    "girl child",
+    "girl children",
+    "girls",
+    "son daughter"
+  ],
+  "girl child": [
+    "boys",
+    "boys girls",
+    "child",
+    "children",
+    "daughter",
+    "daughters",
+    "girl",
+    "girl child",
+    "girl children",
+    "girls",
+    "son daughter"
+  ],
+  "girl children": [
+    "boys",
+    "boys girls",
+    "child",
+    "children",
+    "daughter",
+    "daughters",
+    "girl",
+    "girl child",
+    "girl children",
+    "girls",
+    "son daughter"
+  ],
+  "girls": [
+    "boys",
+    "boys girls",
+    "child",
+    "children",
+    "daughter",
+    "daughters",
+    "girl",
+    "girl child",
+    "girl children",
+    "girls",
+    "son daughter"
+  ],
+  "son daughter": [
+    "boys",
+    "boys girls",
+    "child",
+    "children",
+    "daughter",
+    "daughters",
+    "girl",
+    "girl child",
+    "girl children",
+    "girls",
+    "son daughter"
+  ],
+  "annual": [
+    "annual",
+    "annually"
+  ],
+  "annually": [
+    "annual",
+    "annually"
+  ],
+  "aid": [
+    "aid",
+    "grant",
+    "grant aid",
+    "grant financial",
+    "grants",
+    "research grant"
+  ],
+  "grant": [
+    "aid",
+    "grant",
+    "grant aid",
+    "grant financial",
+    "grants",
+    "research grant"
+  ],
+  "grant aid": [
+    "aid",
+    "grant",
+    "grant aid",
+    "grant financial",
+    "grants",
+    "research grant"
+  ],
+  "grant financial": [
+    "aid",
+    "grant",
+    "grant aid",
+    "grant financial",
+    "grants",
+    "research grant"
+  ],
+  "grants": [
+    "aid",
+    "grant",
+    "grant aid",
+    "grant financial",
+    "grants",
+    "research grant"
+  ],
+  "research grant": [
+    "aid",
+    "grant",
+    "grant aid",
+    "grant financial",
+    "grants",
+    "research grant"
+  ],
+  "case": [
+    "case",
+    "cases"
+  ],
+  "cases": [
+    "case",
+    "cases"
+  ],
+  "belong": [
+    "belong",
+    "belonging"
+  ],
+  "belonging": [
+    "belong",
+    "belonging"
+  ],
+  "permanent": [
+    "permanent",
+    "permanently"
+  ],
+  "permanently": [
+    "permanent",
+    "permanently"
+  ],
+  "caste": [
+    "caste",
+    "caste sc",
+    "caste scheduled",
+    "caste students",
+    "castes",
+    "castes scheduled",
+    "scheduled caste",
+    "scheduled castes"
+  ],
+  "caste sc": [
+    "caste",
+    "caste sc",
+    "caste scheduled",
+    "caste students",
+    "castes",
+    "castes scheduled",
+    "scheduled caste",
+    "scheduled castes"
+  ],
+  "caste scheduled": [
+    "caste",
+    "caste sc",
+    "caste scheduled",
+    "caste students",
+    "castes",
+    "castes scheduled",
+    "scheduled caste",
+    "scheduled castes"
+  ],
+  "caste students": [
+    "caste",
+    "caste sc",
+    "caste scheduled",
+    "caste students",
+    "castes",
+    "castes scheduled",
+    "scheduled caste",
+    "scheduled castes"
+  ],
+  "castes": [
+    "caste",
+    "caste sc",
+    "caste scheduled",
+    "caste students",
+    "castes",
+    "castes scheduled",
+    "scheduled caste",
+    "scheduled castes"
+  ],
+  "castes scheduled": [
+    "caste",
+    "caste sc",
+    "caste scheduled",
+    "caste students",
+    "castes",
+    "castes scheduled",
+    "scheduled caste",
+    "scheduled castes"
+  ],
+  "scheduled caste": [
+    "caste",
+    "caste sc",
+    "caste scheduled",
+    "caste students",
+    "castes",
+    "castes scheduled",
+    "scheduled caste",
+    "scheduled castes"
+  ],
+  "scheduled castes": [
+    "caste",
+    "caste sc",
+    "caste scheduled",
+    "caste students",
+    "castes",
+    "castes scheduled",
+    "scheduled caste",
+    "scheduled castes"
+  ],
+  "human": [
+    "human",
+    "individual",
+    "individuals",
+    "people",
+    "person",
+    "persons"
+  ],
+  "individual": [
+    "human",
+    "individual",
+    "individuals",
+    "people",
+    "person",
+    "persons"
+  ],
+  "individuals": [
+    "human",
+    "individual",
+    "individuals",
+    "people",
+    "person",
+    "persons"
+  ],
+  "people": [
+    "human",
+    "individual",
+    "individuals",
+    "people",
+    "person",
+    "persons"
+  ],
+  "person": [
+    "human",
+    "individual",
+    "individuals",
+    "people",
+    "person",
+    "persons"
+  ],
+  "persons": [
+    "human",
+    "individual",
+    "individuals",
+    "people",
+    "person",
+    "persons"
+  ],
+  "unit": [
+    "unit",
+    "units"
+  ],
+  "units": [
+    "unit",
+    "units"
+  ],
+  "job": [
+    "job",
+    "work",
+    "working"
+  ],
+  "work": [
+    "job",
+    "work",
+    "working"
+  ],
+  "working": [
+    "job",
+    "work",
+    "working"
+  ],
+  "aimed": [
+    "aimed",
+    "aims"
+  ],
+  "aims": [
+    "aimed",
+    "aims"
+  ],
+  "getting": [
+    "getting",
+    "obtain",
+    "obtained",
+    "obtaining",
+    "receive",
+    "received",
+    "receiving"
+  ],
+  "obtain": [
+    "getting",
+    "obtain",
+    "obtained",
+    "obtaining",
+    "receive",
+    "received",
+    "receiving"
+  ],
+  "obtained": [
+    "getting",
+    "obtain",
+    "obtained",
+    "obtaining",
+    "receive",
+    "received",
+    "receiving"
+  ],
+  "obtaining": [
+    "getting",
+    "obtain",
+    "obtained",
+    "obtaining",
+    "receive",
+    "received",
+    "receiving"
+  ],
+  "receive": [
+    "getting",
+    "obtain",
+    "obtained",
+    "obtaining",
+    "receive",
+    "received",
+    "receiving"
+  ],
+  "received": [
+    "getting",
+    "obtain",
+    "obtained",
+    "obtaining",
+    "receive",
+    "received",
+    "receiving"
+  ],
+  "receiving": [
+    "getting",
+    "obtain",
+    "obtained",
+    "obtaining",
+    "receive",
+    "received",
+    "receiving"
+  ],
+  "award": [
+    "award",
+    "awardee",
+    "awardees",
+    "awards",
+    "cash award",
+    "prize"
+  ],
+  "awardee": [
+    "award",
+    "awardee",
+    "awardees",
+    "awards",
+    "cash award",
+    "prize"
+  ],
+  "awardees": [
+    "award",
+    "awardee",
+    "awardees",
+    "awards",
+    "cash award",
+    "prize"
+  ],
+  "awards": [
+    "award",
+    "awardee",
+    "awardees",
+    "awards",
+    "cash award",
+    "prize"
+  ],
+  "cash award": [
+    "award",
+    "awardee",
+    "awardees",
+    "awards",
+    "cash award",
+    "prize"
+  ],
+  "prize": [
+    "award",
+    "awardee",
+    "awardees",
+    "awards",
+    "cash award",
+    "prize"
+  ],
+  "disease": [
+    "disease",
+    "diseases",
+    "drug",
+    "health",
+    "health insurance",
+    "healthcare",
+    "illness",
+    "insurance",
+    "insured",
+    "medical",
+    "medical treatment",
+    "medicine",
+    "treatment"
+  ],
+  "diseases": [
+    "disease",
+    "diseases",
+    "drug",
+    "health",
+    "health insurance",
+    "healthcare",
+    "illness",
+    "insurance",
+    "insured",
+    "medical",
+    "medical treatment",
+    "medicine",
+    "treatment"
+  ],
+  "drug": [
+    "disease",
+    "diseases",
+    "drug",
+    "health",
+    "health insurance",
+    "healthcare",
+    "illness",
+    "insurance",
+    "insured",
+    "medical",
+    "medical treatment",
+    "medicine",
+    "treatment"
+  ],
+  "health": [
+    "disease",
+    "diseases",
+    "drug",
+    "health",
+    "health insurance",
+    "healthcare",
+    "illness",
+    "insurance",
+    "insured",
+    "medical",
+    "medical treatment",
+    "medicine",
+    "treatment"
+  ],
+  "health insurance": [
+    "disease",
+    "diseases",
+    "drug",
+    "health",
+    "health insurance",
+    "healthcare",
+    "illness",
+    "insurance",
+    "insured",
+    "medical",
+    "medical treatment",
+    "medicine",
+    "treatment"
+  ],
+  "healthcare": [
+    "disease",
+    "diseases",
+    "drug",
+    "health",
+    "health insurance",
+    "healthcare",
+    "illness",
+    "insurance",
+    "insured",
+    "medical",
+    "medical treatment",
+    "medicine",
+    "treatment"
+  ],
+  "illness": [
+    "disease",
+    "diseases",
+    "drug",
+    "health",
+    "health insurance",
+    "healthcare",
+    "illness",
+    "insurance",
+    "insured",
+    "medical",
+    "medical treatment",
+    "medicine",
+    "treatment"
+  ],
+  "insurance": [
+    "disease",
+    "diseases",
+    "drug",
+    "health",
+    "health insurance",
+    "healthcare",
+    "illness",
+    "insurance",
+    "insured",
+    "medical",
+    "medical treatment",
+    "medicine",
+    "treatment"
+  ],
+  "insured": [
+    "disease",
+    "diseases",
+    "drug",
+    "health",
+    "health insurance",
+    "healthcare",
+    "illness",
+    "insurance",
+    "insured",
+    "medical",
+    "medical treatment",
+    "medicine",
+    "treatment"
+  ],
+  "medical": [
+    "disease",
+    "diseases",
+    "drug",
+    "health",
+    "health insurance",
+    "healthcare",
+    "illness",
+    "insurance",
+    "insured",
+    "medical",
+    "medical treatment",
+    "medicine",
+    "treatment"
+  ],
+  "medical treatment": [
+    "disease",
+    "diseases",
+    "drug",
+    "health",
+    "health insurance",
+    "healthcare",
+    "illness",
+    "insurance",
+    "insured",
+    "medical",
+    "medical treatment",
+    "medicine",
+    "treatment"
+  ],
+  "medicine": [
+    "disease",
+    "diseases",
+    "drug",
+    "health",
+    "health insurance",
+    "healthcare",
+    "illness",
+    "insurance",
+    "insured",
+    "medical",
+    "medical treatment",
+    "medicine",
+    "treatment"
+  ],
+  "treatment": [
+    "disease",
+    "diseases",
+    "drug",
+    "health",
+    "health insurance",
+    "healthcare",
+    "illness",
+    "insurance",
+    "insured",
+    "medical",
+    "medical treatment",
+    "medicine",
+    "treatment"
+  ],
+  "subject": [
+    "subject",
+    "subjects"
+  ],
+  "subjects": [
+    "subject",
+    "subjects"
+  ],
+  "private sector": [
+    "private sector",
+    "public sector",
+    "sector",
+    "sectors"
+  ],
+  "public sector": [
+    "private sector",
+    "public sector",
+    "sector",
+    "sectors"
+  ],
+  "sector": [
+    "private sector",
+    "public sector",
+    "sector",
+    "sectors"
+  ],
+  "sectors": [
+    "private sector",
+    "public sector",
+    "sector",
+    "sectors"
+  ],
+  "day": [
+    "day",
+    "days",
+    "work days"
+  ],
+  "days": [
+    "day",
+    "days",
+    "work days"
+  ],
+  "work days": [
+    "day",
+    "days",
+    "work days"
+  ],
+  "level": [
+    "level",
+    "levels"
+  ],
+  "levels": [
+    "level",
+    "levels"
+  ],
+  "gujarat": [
+    "gujarat",
+    "gujarat aims"
+  ],
+  "gujarat aims": [
+    "gujarat",
+    "gujarat aims"
+  ],
+  "andhra": [
+    "andhra",
+    "karnataka",
+    "nadu",
+    "resident tamil",
+    "tamil",
+    "tamil nadu",
+    "telangana"
+  ],
+  "karnataka": [
+    "andhra",
+    "karnataka",
+    "nadu",
+    "resident tamil",
+    "tamil",
+    "tamil nadu",
+    "telangana"
+  ],
+  "nadu": [
+    "andhra",
+    "karnataka",
+    "nadu",
+    "resident tamil",
+    "tamil",
+    "tamil nadu",
+    "telangana"
+  ],
+  "resident tamil": [
+    "andhra",
+    "karnataka",
+    "nadu",
+    "resident tamil",
+    "tamil",
+    "tamil nadu",
+    "telangana"
+  ],
+  "tamil": [
+    "andhra",
+    "karnataka",
+    "nadu",
+    "resident tamil",
+    "tamil",
+    "tamil nadu",
+    "telangana"
+  ],
+  "tamil nadu": [
+    "andhra",
+    "karnataka",
+    "nadu",
+    "resident tamil",
+    "tamil",
+    "tamil nadu",
+    "telangana"
+  ],
+  "telangana": [
+    "andhra",
+    "karnataka",
+    "nadu",
+    "resident tamil",
+    "tamil",
+    "tamil nadu",
+    "telangana"
+  ],
+  "husband": [
+    "husband",
+    "husband wife",
+    "marriage",
+    "married",
+    "spouse",
+    "wife"
+  ],
+  "husband wife": [
+    "husband",
+    "husband wife",
+    "marriage",
+    "married",
+    "spouse",
+    "wife"
+  ],
+  "marriage": [
+    "husband",
+    "husband wife",
+    "marriage",
+    "married",
+    "spouse",
+    "wife"
+  ],
+  "married": [
+    "husband",
+    "husband wife",
+    "marriage",
+    "married",
+    "spouse",
+    "wife"
+  ],
+  "spouse": [
+    "husband",
+    "husband wife",
+    "marriage",
+    "married",
+    "spouse",
+    "wife"
+  ],
+  "wife": [
+    "husband",
+    "husband wife",
+    "marriage",
+    "married",
+    "spouse",
+    "wife"
+  ],
+  "high": [
+    "high",
+    "higher",
+    "low",
+    "lower",
+    "whichever lower"
+  ],
+  "higher": [
+    "high",
+    "higher",
+    "low",
+    "lower",
+    "whichever lower"
+  ],
+  "low": [
+    "high",
+    "higher",
+    "low",
+    "lower",
+    "whichever lower"
+  ],
+  "lower": [
+    "high",
+    "higher",
+    "low",
+    "lower",
+    "whichever lower"
+  ],
+  "whichever lower": [
+    "high",
+    "higher",
+    "low",
+    "lower",
+    "whichever lower"
+  ],
+  "business": [
+    "business",
+    "commerce",
+    "commerce industry",
+    "commercial",
+    "commercial production",
+    "companies",
+    "company",
+    "corporation",
+    "development corporation",
+    "enterprise",
+    "enterprises",
+    "incorporated",
+    "industrial",
+    "industrial unit",
+    "industrial units",
+    "industries",
+    "industry",
+    "manufacturing",
+    "manufacturing service",
+    "medium enterprise",
+    "medium enterprises",
+    "production",
+    "small enterprises"
+  ],
+  "commerce": [
+    "business",
+    "commerce",
+    "commerce industry",
+    "commercial",
+    "commercial production",
+    "companies",
+    "company",
+    "corporation",
+    "development corporation",
+    "enterprise",
+    "enterprises",
+    "incorporated",
+    "industrial",
+    "industrial unit",
+    "industrial units",
+    "industries",
+    "industry",
+    "manufacturing",
+    "manufacturing service",
+    "medium enterprise",
+    "medium enterprises",
+    "production",
+    "small enterprises"
+  ],
+  "commerce industry": [
+    "business",
+    "commerce",
+    "commerce industry",
+    "commercial",
+    "commercial production",
+    "companies",
+    "company",
+    "corporation",
+    "development corporation",
+    "enterprise",
+    "enterprises",
+    "incorporated",
+    "industrial",
+    "industrial unit",
+    "industrial units",
+    "industries",
+    "industry",
+    "manufacturing",
+    "manufacturing service",
+    "medium enterprise",
+    "medium enterprises",
+    "production",
+    "small enterprises"
+  ],
+  "commercial": [
+    "business",
+    "commerce",
+    "commerce industry",
+    "commercial",
+    "commercial production",
+    "companies",
+    "company",
+    "corporation",
+    "development corporation",
+    "enterprise",
+    "enterprises",
+    "incorporated",
+    "industrial",
+    "industrial unit",
+    "industrial units",
+    "industries",
+    "industry",
+    "manufacturing",
+    "manufacturing service",
+    "medium enterprise",
+    "medium enterprises",
+    "production",
+    "small enterprises"
+  ],
+  "commercial production": [
+    "business",
+    "commerce",
+    "commerce industry",
+    "commercial",
+    "commercial production",
+    "companies",
+    "company",
+    "corporation",
+    "development corporation",
+    "enterprise",
+    "enterprises",
+    "incorporated",
+    "industrial",
+    "industrial unit",
+    "industrial units",
+    "industries",
+    "industry",
+    "manufacturing",
+    "manufacturing service",
+    "medium enterprise",
+    "medium enterprises",
+    "production",
+    "small enterprises"
+  ],
+  "companies": [
+    "business",
+    "commerce",
+    "commerce industry",
+    "commercial",
+    "commercial production",
+    "companies",
+    "company",
+    "corporation",
+    "development corporation",
+    "enterprise",
+    "enterprises",
+    "incorporated",
+    "industrial",
+    "industrial unit",
+    "industrial units",
+    "industries",
+    "industry",
+    "manufacturing",
+    "manufacturing service",
+    "medium enterprise",
+    "medium enterprises",
+    "production",
+    "small enterprises"
+  ],
+  "company": [
+    "business",
+    "commerce",
+    "commerce industry",
+    "commercial",
+    "commercial production",
+    "companies",
+    "company",
+    "corporation",
+    "development corporation",
+    "enterprise",
+    "enterprises",
+    "incorporated",
+    "industrial",
+    "industrial unit",
+    "industrial units",
+    "industries",
+    "industry",
+    "manufacturing",
+    "manufacturing service",
+    "medium enterprise",
+    "medium enterprises",
+    "production",
+    "small enterprises"
+  ],
+  "corporation": [
+    "business",
+    "commerce",
+    "commerce industry",
+    "commercial",
+    "commercial production",
+    "companies",
+    "company",
+    "corporation",
+    "development corporation",
+    "enterprise",
+    "enterprises",
+    "incorporated",
+    "industrial",
+    "industrial unit",
+    "industrial units",
+    "industries",
+    "industry",
+    "manufacturing",
+    "manufacturing service",
+    "medium enterprise",
+    "medium enterprises",
+    "production",
+    "small enterprises"
+  ],
+  "development corporation": [
+    "business",
+    "commerce",
+    "commerce industry",
+    "commercial",
+    "commercial production",
+    "companies",
+    "company",
+    "corporation",
+    "development corporation",
+    "enterprise",
+    "enterprises",
+    "incorporated",
+    "industrial",
+    "industrial unit",
+    "industrial units",
+    "industries",
+    "industry",
+    "manufacturing",
+    "manufacturing service",
+    "medium enterprise",
+    "medium enterprises",
+    "production",
+    "small enterprises"
+  ],
+  "enterprise": [
+    "business",
+    "commerce",
+    "commerce industry",
+    "commercial",
+    "commercial production",
+    "companies",
+    "company",
+    "corporation",
+    "development corporation",
+    "enterprise",
+    "enterprises",
+    "incorporated",
+    "industrial",
+    "industrial unit",
+    "industrial units",
+    "industries",
+    "industry",
+    "manufacturing",
+    "manufacturing service",
+    "medium enterprise",
+    "medium enterprises",
+    "production",
+    "small enterprises"
+  ],
+  "enterprises": [
+    "business",
+    "commerce",
+    "commerce industry",
+    "commercial",
+    "commercial production",
+    "companies",
+    "company",
+    "corporation",
+    "development corporation",
+    "enterprise",
+    "enterprises",
+    "incorporated",
+    "industrial",
+    "industrial unit",
+    "industrial units",
+    "industries",
+    "industry",
+    "manufacturing",
+    "manufacturing service",
+    "medium enterprise",
+    "medium enterprises",
+    "production",
+    "small enterprises"
+  ],
+  "incorporated": [
+    "business",
+    "commerce",
+    "commerce industry",
+    "commercial",
+    "commercial production",
+    "companies",
+    "company",
+    "corporation",
+    "development corporation",
+    "enterprise",
+    "enterprises",
+    "incorporated",
+    "industrial",
+    "industrial unit",
+    "industrial units",
+    "industries",
+    "industry",
+    "manufacturing",
+    "manufacturing service",
+    "medium enterprise",
+    "medium enterprises",
+    "production",
+    "small enterprises"
+  ],
+  "industrial": [
+    "business",
+    "commerce",
+    "commerce industry",
+    "commercial",
+    "commercial production",
+    "companies",
+    "company",
+    "corporation",
+    "development corporation",
+    "enterprise",
+    "enterprises",
+    "incorporated",
+    "industrial",
+    "industrial unit",
+    "industrial units",
+    "industries",
+    "industry",
+    "manufacturing",
+    "manufacturing service",
+    "medium enterprise",
+    "medium enterprises",
+    "production",
+    "small enterprises"
+  ],
+  "industrial unit": [
+    "business",
+    "commerce",
+    "commerce industry",
+    "commercial",
+    "commercial production",
+    "companies",
+    "company",
+    "corporation",
+    "development corporation",
+    "enterprise",
+    "enterprises",
+    "incorporated",
+    "industrial",
+    "industrial unit",
+    "industrial units",
+    "industries",
+    "industry",
+    "manufacturing",
+    "manufacturing service",
+    "medium enterprise",
+    "medium enterprises",
+    "production",
+    "small enterprises"
+  ],
+  "industrial units": [
+    "business",
+    "commerce",
+    "commerce industry",
+    "commercial",
+    "commercial production",
+    "companies",
+    "company",
+    "corporation",
+    "development corporation",
+    "enterprise",
+    "enterprises",
+    "incorporated",
+    "industrial",
+    "industrial unit",
+    "industrial units",
+    "industries",
+    "industry",
+    "manufacturing",
+    "manufacturing service",
+    "medium enterprise",
+    "medium enterprises",
+    "production",
+    "small enterprises"
+  ],
+  "industries": [
+    "business",
+    "commerce",
+    "commerce industry",
+    "commercial",
+    "commercial production",
+    "companies",
+    "company",
+    "corporation",
+    "development corporation",
+    "enterprise",
+    "enterprises",
+    "incorporated",
+    "industrial",
+    "industrial unit",
+    "industrial units",
+    "industries",
+    "industry",
+    "manufacturing",
+    "manufacturing service",
+    "medium enterprise",
+    "medium enterprises",
+    "production",
+    "small enterprises"
+  ],
+  "industry": [
+    "business",
+    "commerce",
+    "commerce industry",
+    "commercial",
+    "commercial production",
+    "companies",
+    "company",
+    "corporation",
+    "development corporation",
+    "enterprise",
+    "enterprises",
+    "incorporated",
+    "industrial",
+    "industrial unit",
+    "industrial units",
+    "industries",
+    "industry",
+    "manufacturing",
+    "manufacturing service",
+    "medium enterprise",
+    "medium enterprises",
+    "production",
+    "small enterprises"
+  ],
+  "manufacturing": [
+    "business",
+    "commerce",
+    "commerce industry",
+    "commercial",
+    "commercial production",
+    "companies",
+    "company",
+    "corporation",
+    "development corporation",
+    "enterprise",
+    "enterprises",
+    "incorporated",
+    "industrial",
+    "industrial unit",
+    "industrial units",
+    "industries",
+    "industry",
+    "manufacturing",
+    "manufacturing service",
+    "medium enterprise",
+    "medium enterprises",
+    "production",
+    "small enterprises"
+  ],
+  "manufacturing service": [
+    "business",
+    "commerce",
+    "commerce industry",
+    "commercial",
+    "commercial production",
+    "companies",
+    "company",
+    "corporation",
+    "development corporation",
+    "enterprise",
+    "enterprises",
+    "incorporated",
+    "industrial",
+    "industrial unit",
+    "industrial units",
+    "industries",
+    "industry",
+    "manufacturing",
+    "manufacturing service",
+    "medium enterprise",
+    "medium enterprises",
+    "production",
+    "small enterprises"
+  ],
+  "medium enterprise": [
+    "business",
+    "commerce",
+    "commerce industry",
+    "commercial",
+    "commercial production",
+    "companies",
+    "company",
+    "corporation",
+    "development corporation",
+    "enterprise",
+    "enterprises",
+    "incorporated",
+    "industrial",
+    "industrial unit",
+    "industrial units",
+    "industries",
+    "industry",
+    "manufacturing",
+    "manufacturing service",
+    "medium enterprise",
+    "medium enterprises",
+    "production",
+    "small enterprises"
+  ],
+  "medium enterprises": [
+    "business",
+    "commerce",
+    "commerce industry",
+    "commercial",
+    "commercial production",
+    "companies",
+    "company",
+    "corporation",
+    "development corporation",
+    "enterprise",
+    "enterprises",
+    "incorporated",
+    "industrial",
+    "industrial unit",
+    "industrial units",
+    "industries",
+    "industry",
+    "manufacturing",
+    "manufacturing service",
+    "medium enterprise",
+    "medium enterprises",
+    "production",
+    "small enterprises"
+  ],
+  "production": [
+    "business",
+    "commerce",
+    "commerce industry",
+    "commercial",
+    "commercial production",
+    "companies",
+    "company",
+    "corporation",
+    "development corporation",
+    "enterprise",
+    "enterprises",
+    "incorporated",
+    "industrial",
+    "industrial unit",
+    "industrial units",
+    "industries",
+    "industry",
+    "manufacturing",
+    "manufacturing service",
+    "medium enterprise",
+    "medium enterprises",
+    "production",
+    "small enterprises"
+  ],
+  "small enterprises": [
+    "business",
+    "commerce",
+    "commerce industry",
+    "commercial",
+    "commercial production",
+    "companies",
+    "company",
+    "corporation",
+    "development corporation",
+    "enterprise",
+    "enterprises",
+    "incorporated",
+    "industrial",
+    "industrial unit",
+    "industrial units",
+    "industries",
+    "industry",
+    "manufacturing",
+    "manufacturing service",
+    "medium enterprise",
+    "medium enterprises",
+    "production",
+    "small enterprises"
+  ],
+  "rate": [
+    "rate",
+    "rates"
+  ],
+  "rates": [
+    "rate",
+    "rates"
+  ],
+  "project": [
+    "project",
+    "projects"
+  ],
+  "projects": [
+    "project",
+    "projects"
+  ],
+  "commencement": [
+    "commencement",
+    "courses",
+    "degree",
+    "degree course",
+    "degree courses",
+    "degree diploma",
+    "degrees",
+    "diploma",
+    "diploma courses",
+    "doctoral",
+    "graduate",
+    "graduates",
+    "graduation",
+    "graduation post",
+    "master degree",
+    "phd",
+    "post doctoral",
+    "post graduate",
+    "post graduation",
+    "professional courses"
+  ],
+  "courses": [
+    "commencement",
+    "courses",
+    "degree",
+    "degree course",
+    "degree courses",
+    "degree diploma",
+    "degrees",
+    "diploma",
+    "diploma courses",
+    "doctoral",
+    "graduate",
+    "graduates",
+    "graduation",
+    "graduation post",
+    "master degree",
+    "phd",
+    "post doctoral",
+    "post graduate",
+    "post graduation",
+    "professional courses"
+  ],
+  "degree": [
+    "commencement",
+    "courses",
+    "degree",
+    "degree course",
+    "degree courses",
+    "degree diploma",
+    "degrees",
+    "diploma",
+    "diploma courses",
+    "doctoral",
+    "graduate",
+    "graduates",
+    "graduation",
+    "graduation post",
+    "master degree",
+    "phd",
+    "post doctoral",
+    "post graduate",
+    "post graduation",
+    "professional courses"
+  ],
+  "degree course": [
+    "commencement",
+    "courses",
+    "degree",
+    "degree course",
+    "degree courses",
+    "degree diploma",
+    "degrees",
+    "diploma",
+    "diploma courses",
+    "doctoral",
+    "graduate",
+    "graduates",
+    "graduation",
+    "graduation post",
+    "master degree",
+    "phd",
+    "post doctoral",
+    "post graduate",
+    "post graduation",
+    "professional courses"
+  ],
+  "degree courses": [
+    "commencement",
+    "courses",
+    "degree",
+    "degree course",
+    "degree courses",
+    "degree diploma",
+    "degrees",
+    "diploma",
+    "diploma courses",
+    "doctoral",
+    "graduate",
+    "graduates",
+    "graduation",
+    "graduation post",
+    "master degree",
+    "phd",
+    "post doctoral",
+    "post graduate",
+    "post graduation",
+    "professional courses"
+  ],
+  "degree diploma": [
+    "commencement",
+    "courses",
+    "degree",
+    "degree course",
+    "degree courses",
+    "degree diploma",
+    "degrees",
+    "diploma",
+    "diploma courses",
+    "doctoral",
+    "graduate",
+    "graduates",
+    "graduation",
+    "graduation post",
+    "master degree",
+    "phd",
+    "post doctoral",
+    "post graduate",
+    "post graduation",
+    "professional courses"
+  ],
+  "degrees": [
+    "commencement",
+    "courses",
+    "degree",
+    "degree course",
+    "degree courses",
+    "degree diploma",
+    "degrees",
+    "diploma",
+    "diploma courses",
+    "doctoral",
+    "graduate",
+    "graduates",
+    "graduation",
+    "graduation post",
+    "master degree",
+    "phd",
+    "post doctoral",
+    "post graduate",
+    "post graduation",
+    "professional courses"
+  ],
+  "diploma": [
+    "commencement",
+    "courses",
+    "degree",
+    "degree course",
+    "degree courses",
+    "degree diploma",
+    "degrees",
+    "diploma",
+    "diploma courses",
+    "doctoral",
+    "graduate",
+    "graduates",
+    "graduation",
+    "graduation post",
+    "master degree",
+    "phd",
+    "post doctoral",
+    "post graduate",
+    "post graduation",
+    "professional courses"
+  ],
+  "diploma courses": [
+    "commencement",
+    "courses",
+    "degree",
+    "degree course",
+    "degree courses",
+    "degree diploma",
+    "degrees",
+    "diploma",
+    "diploma courses",
+    "doctoral",
+    "graduate",
+    "graduates",
+    "graduation",
+    "graduation post",
+    "master degree",
+    "phd",
+    "post doctoral",
+    "post graduate",
+    "post graduation",
+    "professional courses"
+  ],
+  "doctoral": [
+    "commencement",
+    "courses",
+    "degree",
+    "degree course",
+    "degree courses",
+    "degree diploma",
+    "degrees",
+    "diploma",
+    "diploma courses",
+    "doctoral",
+    "graduate",
+    "graduates",
+    "graduation",
+    "graduation post",
+    "master degree",
+    "phd",
+    "post doctoral",
+    "post graduate",
+    "post graduation",
+    "professional courses"
+  ],
+  "graduate": [
+    "commencement",
+    "courses",
+    "degree",
+    "degree course",
+    "degree courses",
+    "degree diploma",
+    "degrees",
+    "diploma",
+    "diploma courses",
+    "doctoral",
+    "graduate",
+    "graduates",
+    "graduation",
+    "graduation post",
+    "master degree",
+    "phd",
+    "post doctoral",
+    "post graduate",
+    "post graduation",
+    "professional courses"
+  ],
+  "graduates": [
+    "commencement",
+    "courses",
+    "degree",
+    "degree course",
+    "degree courses",
+    "degree diploma",
+    "degrees",
+    "diploma",
+    "diploma courses",
+    "doctoral",
+    "graduate",
+    "graduates",
+    "graduation",
+    "graduation post",
+    "master degree",
+    "phd",
+    "post doctoral",
+    "post graduate",
+    "post graduation",
+    "professional courses"
+  ],
+  "graduation": [
+    "commencement",
+    "courses",
+    "degree",
+    "degree course",
+    "degree courses",
+    "degree diploma",
+    "degrees",
+    "diploma",
+    "diploma courses",
+    "doctoral",
+    "graduate",
+    "graduates",
+    "graduation",
+    "graduation post",
+    "master degree",
+    "phd",
+    "post doctoral",
+    "post graduate",
+    "post graduation",
+    "professional courses"
+  ],
+  "graduation post": [
+    "commencement",
+    "courses",
+    "degree",
+    "degree course",
+    "degree courses",
+    "degree diploma",
+    "degrees",
+    "diploma",
+    "diploma courses",
+    "doctoral",
+    "graduate",
+    "graduates",
+    "graduation",
+    "graduation post",
+    "master degree",
+    "phd",
+    "post doctoral",
+    "post graduate",
+    "post graduation",
+    "professional courses"
+  ],
+  "master degree": [
+    "commencement",
+    "courses",
+    "degree",
+    "degree course",
+    "degree courses",
+    "degree diploma",
+    "degrees",
+    "diploma",
+    "diploma courses",
+    "doctoral",
+    "graduate",
+    "graduates",
+    "graduation",
+    "graduation post",
+    "master degree",
+    "phd",
+    "post doctoral",
+    "post graduate",
+    "post graduation",
+    "professional courses"
+  ],
+  "phd": [
+    "commencement",
+    "courses",
+    "degree",
+    "degree course",
+    "degree courses",
+    "degree diploma",
+    "degrees",
+    "diploma",
+    "diploma courses",
+    "doctoral",
+    "graduate",
+    "graduates",
+    "graduation",
+    "graduation post",
+    "master degree",
+    "phd",
+    "post doctoral",
+    "post graduate",
+    "post graduation",
+    "professional courses"
+  ],
+  "post doctoral": [
+    "commencement",
+    "courses",
+    "degree",
+    "degree course",
+    "degree courses",
+    "degree diploma",
+    "degrees",
+    "diploma",
+    "diploma courses",
+    "doctoral",
+    "graduate",
+    "graduates",
+    "graduation",
+    "graduation post",
+    "master degree",
+    "phd",
+    "post doctoral",
+    "post graduate",
+    "post graduation",
+    "professional courses"
+  ],
+  "post graduate": [
+    "commencement",
+    "courses",
+    "degree",
+    "degree course",
+    "degree courses",
+    "degree diploma",
+    "degrees",
+    "diploma",
+    "diploma courses",
+    "doctoral",
+    "graduate",
+    "graduates",
+    "graduation",
+    "graduation post",
+    "master degree",
+    "phd",
+    "post doctoral",
+    "post graduate",
+    "post graduation",
+    "professional courses"
+  ],
+  "post graduation": [
+    "commencement",
+    "courses",
+    "degree",
+    "degree course",
+    "degree courses",
+    "degree diploma",
+    "degrees",
+    "diploma",
+    "diploma courses",
+    "doctoral",
+    "graduate",
+    "graduates",
+    "graduation",
+    "graduation post",
+    "master degree",
+    "phd",
+    "post doctoral",
+    "post graduate",
+    "post graduation",
+    "professional courses"
+  ],
+  "professional courses": [
+    "commencement",
+    "courses",
+    "degree",
+    "degree course",
+    "degree courses",
+    "degree diploma",
+    "degrees",
+    "diploma",
+    "diploma courses",
+    "doctoral",
+    "graduate",
+    "graduates",
+    "graduation",
+    "graduation post",
+    "master degree",
+    "phd",
+    "post doctoral",
+    "post graduate",
+    "post graduation",
+    "professional courses"
+  ],
+  "group": [
+    "group",
+    "groups",
+    "help groups"
+  ],
+  "groups": [
+    "group",
+    "groups",
+    "help groups"
+  ],
+  "help groups": [
+    "group",
+    "groups",
+    "help groups"
+  ],
+  "large": [
+    "large",
+    "medium",
+    "micro",
+    "micro small",
+    "size",
+    "small",
+    "small medium"
+  ],
+  "medium": [
+    "large",
+    "medium",
+    "micro",
+    "micro small",
+    "size",
+    "small",
+    "small medium"
+  ],
+  "micro": [
+    "large",
+    "medium",
+    "micro",
+    "micro small",
+    "size",
+    "small",
+    "small medium"
+  ],
+  "micro small": [
+    "large",
+    "medium",
+    "micro",
+    "micro small",
+    "size",
+    "small",
+    "small medium"
+  ],
+  "size": [
+    "large",
+    "medium",
+    "micro",
+    "micro small",
+    "size",
+    "small",
+    "small medium"
+  ],
+  "small": [
+    "large",
+    "medium",
+    "micro",
+    "micro small",
+    "size",
+    "small",
+    "small medium"
+  ],
+  "small medium": [
+    "large",
+    "medium",
+    "micro",
+    "micro small",
+    "size",
+    "small",
+    "small medium"
+  ],
+  "purchase": [
+    "purchase",
+    "purchased",
+    "purchasing",
+    "sale",
+    "sales"
+  ],
+  "purchased": [
+    "purchase",
+    "purchased",
+    "purchasing",
+    "sale",
+    "sales"
+  ],
+  "purchasing": [
+    "purchase",
+    "purchased",
+    "purchasing",
+    "sale",
+    "sales"
+  ],
+  "sale": [
+    "purchase",
+    "purchased",
+    "purchasing",
+    "sale",
+    "sales"
+  ],
+  "sales": [
+    "purchase",
+    "purchased",
+    "purchasing",
+    "sale",
+    "sales"
+  ],
+  "area": [
+    "area",
+    "areas"
+  ],
+  "areas": [
+    "area",
+    "areas"
+  ],
+  "service": [
+    "service",
+    "services"
+  ],
+  "services": [
+    "service",
+    "services"
+  ],
+  "puducherry": [
+    "puducherry",
+    "territory puducherry"
+  ],
+  "territory puducherry": [
+    "puducherry",
+    "territory puducherry"
+  ],
+  "act": [
+    "act",
+    "act equivalent",
+    "action"
+  ],
+  "act equivalent": [
+    "act",
+    "act equivalent",
+    "action"
+  ],
+  "action": [
+    "act",
+    "act equivalent",
+    "action"
+  ],
+  "consumption": [
+    "consumption",
+    "expenditure",
+    "expenditure incurred",
+    "expenses",
+    "incurred"
+  ],
+  "expenditure": [
+    "consumption",
+    "expenditure",
+    "expenditure incurred",
+    "expenses",
+    "incurred"
+  ],
+  "expenditure incurred": [
+    "consumption",
+    "expenditure",
+    "expenditure incurred",
+    "expenses",
+    "incurred"
+  ],
+  "expenses": [
+    "consumption",
+    "expenditure",
+    "expenditure incurred",
+    "expenses",
+    "incurred"
+  ],
+  "incurred": [
+    "consumption",
+    "expenditure",
+    "expenditure incurred",
+    "expenses",
+    "incurred"
+  ],
+  "haryana": [
+    "haryana",
+    "haryana labour",
+    "native rajasthan",
+    "rajasthan",
+    "registered haryana",
+    "resident haryana"
+  ],
+  "haryana labour": [
+    "haryana",
+    "haryana labour",
+    "native rajasthan",
+    "rajasthan",
+    "registered haryana",
+    "resident haryana"
+  ],
+  "native rajasthan": [
+    "haryana",
+    "haryana labour",
+    "native rajasthan",
+    "rajasthan",
+    "registered haryana",
+    "resident haryana"
+  ],
+  "rajasthan": [
+    "haryana",
+    "haryana labour",
+    "native rajasthan",
+    "rajasthan",
+    "registered haryana",
+    "resident haryana"
+  ],
+  "registered haryana": [
+    "haryana",
+    "haryana labour",
+    "native rajasthan",
+    "rajasthan",
+    "registered haryana",
+    "resident haryana"
+  ],
+  "resident haryana": [
+    "haryana",
+    "haryana labour",
+    "native rajasthan",
+    "rajasthan",
+    "registered haryana",
+    "resident haryana"
+  ],
+  "implementation": [
+    "implementation",
+    "implemented",
+    "implementing"
+  ],
+  "implemented": [
+    "implementation",
+    "implemented",
+    "implementing"
+  ],
+  "implementing": [
+    "implementation",
+    "implemented",
+    "implementing"
+  ],
+  "communities": [
+    "communities",
+    "community",
+    "minorities",
+    "minority",
+    "minority community"
+  ],
+  "community": [
+    "communities",
+    "community",
+    "minorities",
+    "minority",
+    "minority community"
+  ],
+  "minorities": [
+    "communities",
+    "community",
+    "minorities",
+    "minority",
+    "minority community"
+  ],
+  "minority": [
+    "communities",
+    "community",
+    "minorities",
+    "minority",
+    "minority community"
+  ],
+  "minority community": [
+    "communities",
+    "community",
+    "minorities",
+    "minority",
+    "minority community"
+  ],
+  "exam": [
+    "exam",
+    "examination",
+    "examinations",
+    "exams"
+  ],
+  "examination": [
+    "exam",
+    "examination",
+    "examinations",
+    "exams"
+  ],
+  "examinations": [
+    "exam",
+    "examination",
+    "examinations",
+    "exams"
+  ],
+  "exams": [
+    "exam",
+    "examination",
+    "examinations",
+    "exams"
+  ],
+  "empowerment": [
+    "empowerment",
+    "empowerment persons",
+    "justice empowerment"
+  ],
+  "empowerment persons": [
+    "empowerment",
+    "empowerment persons",
+    "justice empowerment"
+  ],
+  "justice empowerment": [
+    "empowerment",
+    "empowerment persons",
+    "justice empowerment"
+  ],
+  "incentive": [
+    "incentive",
+    "incentives"
+  ],
+  "incentives": [
+    "incentive",
+    "incentives"
+  ],
+  "belong poverty": [
+    "belong poverty",
+    "poverty",
+    "poverty line"
+  ],
+  "poverty": [
+    "belong poverty",
+    "poverty",
+    "poverty line"
+  ],
+  "poverty line": [
+    "belong poverty",
+    "poverty",
+    "poverty line"
+  ],
+  "bpl": [
+    "bpl",
+    "bpl families",
+    "bpl family",
+    "line bpl"
+  ],
+  "bpl families": [
+    "bpl",
+    "bpl families",
+    "bpl family",
+    "line bpl"
+  ],
+  "bpl family": [
+    "bpl",
+    "bpl families",
+    "bpl family",
+    "line bpl"
+  ],
+  "line bpl": [
+    "bpl",
+    "bpl families",
+    "bpl family",
+    "line bpl"
+  ],
+  "activities": [
+    "activities",
+    "activity"
+  ],
+  "activity": [
+    "activities",
+    "activity"
+  ],
+  "backward": [
+    "backward",
+    "backward class",
+    "backward classes"
+  ],
+  "backward class": [
+    "backward",
+    "backward class",
+    "backward classes"
+  ],
+  "backward classes": [
+    "backward",
+    "backward class",
+    "backward classes"
+  ],
+  "resident union": [
+    "resident union",
+    "territory",
+    "union",
+    "union territory"
+  ],
+  "territory": [
+    "resident union",
+    "territory",
+    "union",
+    "union territory"
+  ],
+  "union": [
+    "resident union",
+    "territory",
+    "union",
+    "union territory"
+  ],
+  "union territory": [
+    "resident union",
+    "territory",
+    "union",
+    "union territory"
+  ],
+  "professional": [
+    "professional",
+    "professional technical",
+    "tech",
+    "technical",
+    "technical education"
+  ],
+  "professional technical": [
+    "professional",
+    "professional technical",
+    "tech",
+    "technical",
+    "technical education"
+  ],
+  "tech": [
+    "professional",
+    "professional technical",
+    "tech",
+    "technical",
+    "technical education"
+  ],
+  "technical": [
+    "professional",
+    "professional technical",
+    "tech",
+    "technical",
+    "technical education"
+  ],
+  "technical education": [
+    "professional",
+    "professional technical",
+    "tech",
+    "technical",
+    "technical education"
+  ],
+  "information technology": [
+    "information technology",
+    "science",
+    "science technology",
+    "sciences",
+    "scientific",
+    "scientist",
+    "scientists",
+    "technologies",
+    "technology"
+  ],
+  "science": [
+    "information technology",
+    "science",
+    "science technology",
+    "sciences",
+    "scientific",
+    "scientist",
+    "scientists",
+    "technologies",
+    "technology"
+  ],
+  "science technology": [
+    "information technology",
+    "science",
+    "science technology",
+    "sciences",
+    "scientific",
+    "scientist",
+    "scientists",
+    "technologies",
+    "technology"
+  ],
+  "sciences": [
+    "information technology",
+    "science",
+    "science technology",
+    "sciences",
+    "scientific",
+    "scientist",
+    "scientists",
+    "technologies",
+    "technology"
+  ],
+  "scientific": [
+    "information technology",
+    "science",
+    "science technology",
+    "sciences",
+    "scientific",
+    "scientist",
+    "scientists",
+    "technologies",
+    "technology"
+  ],
+  "scientist": [
+    "information technology",
+    "science",
+    "science technology",
+    "sciences",
+    "scientific",
+    "scientist",
+    "scientists",
+    "technologies",
+    "technology"
+  ],
+  "scientists": [
+    "information technology",
+    "science",
+    "science technology",
+    "sciences",
+    "scientific",
+    "scientist",
+    "scientists",
+    "technologies",
+    "technology"
+  ],
+  "technologies": [
+    "information technology",
+    "science",
+    "science technology",
+    "sciences",
+    "scientific",
+    "scientist",
+    "scientists",
+    "technologies",
+    "technology"
+  ],
+  "technology": [
+    "information technology",
+    "science",
+    "science technology",
+    "sciences",
+    "scientific",
+    "scientist",
+    "scientists",
+    "technologies",
+    "technology"
+  ],
+  "widow": [
+    "widow",
+    "widows"
+  ],
+  "widows": [
+    "widow",
+    "widows"
+  ],
+  "secure": [
+    "secure",
+    "secured",
+    "security"
+  ],
+  "secured": [
+    "secure",
+    "secured",
+    "security"
+  ],
+  "security": [
+    "secure",
+    "secured",
+    "security"
+  ],
+  "facilities": [
+    "facilities",
+    "facility"
+  ],
+  "facility": [
+    "facilities",
+    "facility"
+  ],
+  "able": [
+    "able",
+    "abled"
+  ],
+  "abled": [
+    "able",
+    "abled"
+  ],
+  "scheduled tribe": [
+    "scheduled tribe",
+    "scheduled tribes",
+    "tribal",
+    "tribe",
+    "tribe st",
+    "tribes"
+  ],
+  "scheduled tribes": [
+    "scheduled tribe",
+    "scheduled tribes",
+    "tribal",
+    "tribe",
+    "tribe st",
+    "tribes"
+  ],
+  "tribal": [
+    "scheduled tribe",
+    "scheduled tribes",
+    "tribal",
+    "tribe",
+    "tribe st",
+    "tribes"
+  ],
+  "tribe": [
+    "scheduled tribe",
+    "scheduled tribes",
+    "tribal",
+    "tribe",
+    "tribe st",
+    "tribes"
+  ],
+  "tribe st": [
+    "scheduled tribe",
+    "scheduled tribes",
+    "tribal",
+    "tribe",
+    "tribe st",
+    "tribes"
+  ],
+  "tribes": [
+    "scheduled tribe",
+    "scheduled tribes",
+    "tribal",
+    "tribe",
+    "tribe st",
+    "tribes"
+  ],
+  "madhya": [
+    "madhya",
+    "native madhya",
+    "resident madhya"
+  ],
+  "native madhya": [
+    "madhya",
+    "native madhya",
+    "resident madhya"
+  ],
+  "resident madhya": [
+    "madhya",
+    "native madhya",
+    "resident madhya"
+  ],
+  "allowance": [
+    "allowance",
+    "allowances"
+  ],
+  "allowances": [
+    "allowance",
+    "allowances"
+  ],
+  "standard": [
+    "standard",
+    "standards"
+  ],
+  "standards": [
+    "standard",
+    "standards"
+  ],
+  "aged": [
+    "aged",
+    "elderly",
+    "junior",
+    "old",
+    "older",
+    "senior",
+    "senior citizen",
+    "senior citizens"
+  ],
+  "elderly": [
+    "aged",
+    "elderly",
+    "junior",
+    "old",
+    "older",
+    "senior",
+    "senior citizen",
+    "senior citizens"
+  ],
+  "junior": [
+    "aged",
+    "elderly",
+    "junior",
+    "old",
+    "older",
+    "senior",
+    "senior citizen",
+    "senior citizens"
+  ],
+  "old": [
+    "aged",
+    "elderly",
+    "junior",
+    "old",
+    "older",
+    "senior",
+    "senior citizen",
+    "senior citizens"
+  ],
+  "older": [
+    "aged",
+    "elderly",
+    "junior",
+    "old",
+    "older",
+    "senior",
+    "senior citizen",
+    "senior citizens"
+  ],
+  "senior": [
+    "aged",
+    "elderly",
+    "junior",
+    "old",
+    "older",
+    "senior",
+    "senior citizen",
+    "senior citizens"
+  ],
+  "senior citizen": [
+    "aged",
+    "elderly",
+    "junior",
+    "old",
+    "older",
+    "senior",
+    "senior citizen",
+    "senior citizens"
+  ],
+  "senior citizens": [
+    "aged",
+    "elderly",
+    "junior",
+    "old",
+    "older",
+    "senior",
+    "senior citizen",
+    "senior citizens"
+  ],
+  "disabled": [
+    "disabled",
+    "enable"
+  ],
+  "enable": [
+    "disabled",
+    "enable"
+  ],
+  "approval": [
+    "approval",
+    "approved"
+  ],
+  "approved": [
+    "approval",
+    "approved"
+  ],
+  "societies": [
+    "societies",
+    "society"
+  ],
+  "society": [
+    "societies",
+    "society"
+  ],
+  "different": [
+    "different",
+    "differently"
+  ],
+  "differently": [
+    "different",
+    "differently"
+  ],
+  "component": [
+    "component",
+    "components"
+  ],
+  "components": [
+    "component",
+    "components"
+  ],
+  "goa": [
+    "goa",
+    "goan"
+  ],
+  "goan": [
+    "goa",
+    "goan"
+  ],
+  "public": [
+    "public",
+    "public service"
+  ],
+  "public service": [
+    "public",
+    "public service"
+  ],
+  "business entrepreneurship": [
+    "business entrepreneurship",
+    "entrepreneur",
+    "entrepreneurs",
+    "entrepreneurs start",
+    "entrepreneurship",
+    "entrepreneurship subsidy",
+    "women entrepreneurs"
+  ],
+  "entrepreneur": [
+    "business entrepreneurship",
+    "entrepreneur",
+    "entrepreneurs",
+    "entrepreneurs start",
+    "entrepreneurship",
+    "entrepreneurship subsidy",
+    "women entrepreneurs"
+  ],
+  "entrepreneurs": [
+    "business entrepreneurship",
+    "entrepreneur",
+    "entrepreneurs",
+    "entrepreneurs start",
+    "entrepreneurship",
+    "entrepreneurship subsidy",
+    "women entrepreneurs"
+  ],
+  "entrepreneurs start": [
+    "business entrepreneurship",
+    "entrepreneur",
+    "entrepreneurs",
+    "entrepreneurs start",
+    "entrepreneurship",
+    "entrepreneurship subsidy",
+    "women entrepreneurs"
+  ],
+  "entrepreneurship": [
+    "business entrepreneurship",
+    "entrepreneur",
+    "entrepreneurs",
+    "entrepreneurs start",
+    "entrepreneurship",
+    "entrepreneurship subsidy",
+    "women entrepreneurs"
+  ],
+  "entrepreneurship subsidy": [
+    "business entrepreneurship",
+    "entrepreneur",
+    "entrepreneurs",
+    "entrepreneurs start",
+    "entrepreneurship",
+    "entrepreneurship subsidy",
+    "women entrepreneurs"
+  ],
+  "women entrepreneurs": [
+    "business entrepreneurship",
+    "entrepreneur",
+    "entrepreneurs",
+    "entrepreneurs start",
+    "entrepreneurship",
+    "entrepreneurship subsidy",
+    "women entrepreneurs"
+  ],
+  "marks": [
+    "marks",
+    "secured marks"
+  ],
+  "secured marks": [
+    "marks",
+    "secured marks"
+  ],
+  "selected": [
+    "selected",
+    "selection"
+  ],
+  "selection": [
+    "selected",
+    "selection"
+  ],
+  "citizen": [
+    "citizen",
+    "citizens"
+  ],
+  "citizens": [
+    "citizen",
+    "citizens"
+  ],
+  "food": [
+    "food",
+    "meal"
+  ],
+  "meal": [
+    "food",
+    "meal"
+  ],
+  "availed": [
+    "availed",
+    "availing"
+  ],
+  "availing": [
+    "availed",
+    "availing"
+  ],
+  "pass": [
+    "pass",
+    "passed",
+    "passing"
+  ],
+  "passed": [
+    "pass",
+    "passed",
+    "passing"
+  ],
+  "passing": [
+    "pass",
+    "passed",
+    "passing"
+  ],
+  "program": [
+    "program",
+    "programme",
+    "programmes",
+    "programs",
+    "software"
+  ],
+  "programme": [
+    "program",
+    "programme",
+    "programmes",
+    "programs",
+    "software"
+  ],
+  "programmes": [
+    "program",
+    "programme",
+    "programmes",
+    "programs",
+    "software"
+  ],
+  "programs": [
+    "program",
+    "programme",
+    "programmes",
+    "programs",
+    "software"
+  ],
+  "software": [
+    "program",
+    "programme",
+    "programmes",
+    "programs",
+    "software"
+  ],
+  "candidate": [
+    "candidate",
+    "candidates",
+    "nominations",
+    "nominee"
+  ],
+  "candidates": [
+    "candidate",
+    "candidates",
+    "nominations",
+    "nominee"
+  ],
+  "nominations": [
+    "candidate",
+    "candidates",
+    "nominations",
+    "nominee"
+  ],
+  "nominee": [
+    "candidate",
+    "candidates",
+    "nominations",
+    "nominee"
+  ],
+  "limited": [
+    "limited",
+    "restricted"
+  ],
+  "restricted": [
+    "limited",
+    "restricted"
+  ],
+  "cover": [
+    "cover",
+    "covered",
+    "covering",
+    "covers"
+  ],
+  "covered": [
+    "cover",
+    "covered",
+    "covering",
+    "covers"
+  ],
+  "covering": [
+    "cover",
+    "covered",
+    "covering",
+    "covers"
+  ],
+  "covers": [
+    "cover",
+    "covered",
+    "covering",
+    "covers"
+  ],
+  "card": [
+    "card",
+    "cards"
+  ],
+  "cards": [
+    "card",
+    "cards"
+  ],
+  "complete": [
+    "complete",
+    "completed",
+    "completing",
+    "completion"
+  ],
+  "completed": [
+    "complete",
+    "completed",
+    "completing",
+    "completion"
+  ],
+  "completing": [
+    "complete",
+    "completed",
+    "completing",
+    "completion"
+  ],
+  "completion": [
+    "complete",
+    "completed",
+    "completing",
+    "completion"
+  ],
+  "direct": [
+    "direct",
+    "directly"
+  ],
+  "directly": [
+    "direct",
+    "directly"
+  ],
+  "purpose": [
+    "purpose",
+    "purposes"
+  ],
+  "purposes": [
+    "purpose",
+    "purposes"
+  ],
+  "organization": [
+    "organization",
+    "organizations",
+    "organized",
+    "organizing"
+  ],
+  "organizations": [
+    "organization",
+    "organizations",
+    "organized",
+    "organizing"
+  ],
+  "organized": [
+    "organization",
+    "organizations",
+    "organized",
+    "organizing"
+  ],
+  "organizing": [
+    "organization",
+    "organizations",
+    "organized",
+    "organizing"
+  ],
+  "entrepreneurship msmes": [
+    "entrepreneurship msmes",
+    "msme",
+    "msme sector",
+    "msmes"
+  ],
+  "msme": [
+    "entrepreneurship msmes",
+    "msme",
+    "msme sector",
+    "msmes"
+  ],
+  "msme sector": [
+    "entrepreneurship msmes",
+    "msme",
+    "msme sector",
+    "msmes"
+  ],
+  "msmes": [
+    "entrepreneurship msmes",
+    "msme",
+    "msme sector",
+    "msmes"
+  ],
+  "condition": [
+    "condition",
+    "conditions"
+  ],
+  "conditions": [
+    "condition",
+    "conditions"
+  ],
+  "life": [
+    "life",
+    "living"
+  ],
+  "living": [
+    "life",
+    "living"
+  ],
+  "start": [
+    "start",
+    "started",
+    "starting"
+  ],
+  "started": [
+    "start",
+    "started",
+    "starting"
+  ],
+  "starting": [
+    "start",
+    "started",
+    "starting"
+  ],
+  "source": [
+    "source",
+    "sources"
+  ],
+  "sources": [
+    "source",
+    "sources"
+  ],
+  "field": [
+    "field",
+    "fields"
+  ],
+  "fields": [
+    "field",
+    "fields"
+  ],
+  "admission": [
+    "admission",
+    "admitted"
+  ],
+  "admitted": [
+    "admission",
+    "admitted"
+  ],
+  "bihar": [
+    "bihar",
+    "resident bihar"
+  ],
+  "resident bihar": [
+    "bihar",
+    "resident bihar"
+  ],
+  "transfer": [
+    "transfer",
+    "transferred"
+  ],
+  "transferred": [
+    "transfer",
+    "transferred"
+  ],
+  "disbursed": [
+    "disbursed",
+    "disbursement",
+    "mode disbursement"
+  ],
+  "disbursement": [
+    "disbursed",
+    "disbursement",
+    "mode disbursement"
+  ],
+  "mode disbursement": [
+    "disbursed",
+    "disbursement",
+    "mode disbursement"
+  ],
+  "dependent": [
+    "dependent",
+    "dependents"
+  ],
+  "dependents": [
+    "dependent",
+    "dependents"
+  ],
+  "economic": [
+    "economic",
+    "economically",
+    "economy",
+    "socio",
+    "socio economic"
+  ],
+  "economically": [
+    "economic",
+    "economically",
+    "economy",
+    "socio",
+    "socio economic"
+  ],
+  "economy": [
+    "economic",
+    "economically",
+    "economy",
+    "socio",
+    "socio economic"
+  ],
+  "socio": [
+    "economic",
+    "economically",
+    "economy",
+    "socio",
+    "socio economic"
+  ],
+  "socio economic": [
+    "economic",
+    "economically",
+    "economy",
+    "socio",
+    "socio economic"
+  ],
+  "contribute": [
+    "contribute",
+    "contribution",
+    "contributions"
+  ],
+  "contribution": [
+    "contribute",
+    "contribution",
+    "contributions"
+  ],
+  "contributions": [
+    "contribute",
+    "contribution",
+    "contributions"
+  ],
+  "term": [
+    "term",
+    "terms"
+  ],
+  "terms": [
+    "term",
+    "terms"
+  ],
+  "promote": [
+    "promote",
+    "promotes",
+    "promoting",
+    "promotion"
+  ],
+  "promotes": [
+    "promote",
+    "promotes",
+    "promoting",
+    "promotion"
+  ],
+  "promoting": [
+    "promote",
+    "promotes",
+    "promoting",
+    "promotion"
+  ],
+  "promotion": [
+    "promote",
+    "promotes",
+    "promoting",
+    "promotion"
+  ],
+  "committee": [
+    "committee",
+    "committees"
+  ],
+  "committees": [
+    "committee",
+    "committees"
+  ],
+  "encourage": [
+    "encourage",
+    "encourages"
+  ],
+  "encourages": [
+    "encourage",
+    "encourages"
+  ],
+  "fellowship": [
+    "fellowship",
+    "fellowships",
+    "research fellowship"
+  ],
+  "fellowships": [
+    "fellowship",
+    "fellowships",
+    "research fellowship"
+  ],
+  "research fellowship": [
+    "fellowship",
+    "fellowships",
+    "research fellowship"
+  ],
+  "cooperative": [
+    "cooperative",
+    "cooperative society"
+  ],
+  "cooperative society": [
+    "cooperative",
+    "cooperative society"
+  ],
+  "chief minister": [
+    "chief minister",
+    "minister",
+    "prime minister"
+  ],
+  "minister": [
+    "chief minister",
+    "minister",
+    "prime minister"
+  ],
+  "prime minister": [
+    "chief minister",
+    "minister",
+    "prime minister"
+  ],
+  "eastern": [
+    "eastern",
+    "north",
+    "north eastern",
+    "west"
+  ],
+  "north": [
+    "eastern",
+    "north",
+    "north eastern",
+    "west"
+  ],
+  "north eastern": [
+    "eastern",
+    "north",
+    "north eastern",
+    "west"
+  ],
+  "west": [
+    "eastern",
+    "north",
+    "north eastern",
+    "west"
+  ],
+  "art": [
+    "art",
+    "art culture",
+    "artist",
+    "artists",
+    "arts",
+    "cultural",
+    "culture"
+  ],
+  "art culture": [
+    "art",
+    "art culture",
+    "artist",
+    "artists",
+    "arts",
+    "cultural",
+    "culture"
+  ],
+  "artist": [
+    "art",
+    "art culture",
+    "artist",
+    "artists",
+    "arts",
+    "cultural",
+    "culture"
+  ],
+  "artists": [
+    "art",
+    "art culture",
+    "artist",
+    "artists",
+    "arts",
+    "cultural",
+    "culture"
+  ],
+  "arts": [
+    "art",
+    "art culture",
+    "artist",
+    "artists",
+    "arts",
+    "cultural",
+    "culture"
+  ],
+  "cultural": [
+    "art",
+    "art culture",
+    "artist",
+    "artists",
+    "arts",
+    "cultural",
+    "culture"
+  ],
+  "culture": [
+    "art",
+    "art culture",
+    "artist",
+    "artists",
+    "arts",
+    "cultural",
+    "culture"
+  ],
+  "hostel": [
+    "hostel",
+    "hostels"
+  ],
+  "hostels": [
+    "hostel",
+    "hostels"
+  ],
+  "bengal": [
+    "bengal",
+    "west bengal"
+  ],
+  "west bengal": [
+    "bengal",
+    "west bengal"
+  ],
+  "higher secondary": [
+    "higher secondary",
+    "secondary"
+  ],
+  "secondary": [
+    "higher secondary",
+    "secondary"
+  ],
+  "birth": [
+    "birth",
+    "born"
+  ],
+  "born": [
+    "birth",
+    "born"
+  ],
+  "matric": [
+    "matric",
+    "matriculation",
+    "post matric",
+    "pre matric"
+  ],
+  "matriculation": [
+    "matric",
+    "matriculation",
+    "post matric",
+    "pre matric"
+  ],
+  "post matric": [
+    "matric",
+    "matriculation",
+    "post matric",
+    "pre matric"
+  ],
+  "pre matric": [
+    "matric",
+    "matriculation",
+    "post matric",
+    "pre matric"
+  ],
+  "authority": [
+    "authority",
+    "competent",
+    "competent authority"
+  ],
+  "competent": [
+    "authority",
+    "competent",
+    "competent authority"
+  ],
+  "competent authority": [
+    "authority",
+    "competent",
+    "competent authority"
+  ],
+  "officer": [
+    "officer",
+    "officers"
+  ],
+  "officers": [
+    "officer",
+    "officers"
+  ],
+  "animal": [
+    "animal",
+    "animals"
+  ],
+  "animals": [
+    "animal",
+    "animals"
+  ],
+  "make": [
+    "make",
+    "making"
+  ],
+  "making": [
+    "make",
+    "making"
+  ],
+  "delhi": [
+    "delhi",
+    "new delhi"
+  ],
+  "new delhi": [
+    "delhi",
+    "new delhi"
+  ],
+  "charged": [
+    "charged",
+    "charges"
+  ],
+  "charges": [
+    "charged",
+    "charges"
+  ],
+  "transport": [
+    "transport",
+    "transportation",
+    "travel"
+  ],
+  "transportation": [
+    "transport",
+    "transportation",
+    "travel"
+  ],
+  "travel": [
+    "transport",
+    "transportation",
+    "travel"
+  ],
+  "operation": [
+    "operation",
+    "operations"
+  ],
+  "operations": [
+    "operation",
+    "operations"
+  ],
+  "accommodation": [
+    "accommodation",
+    "boarding",
+    "boarding lodging",
+    "hotel",
+    "lodging"
+  ],
+  "boarding": [
+    "accommodation",
+    "boarding",
+    "boarding lodging",
+    "hotel",
+    "lodging"
+  ],
+  "boarding lodging": [
+    "accommodation",
+    "boarding",
+    "boarding lodging",
+    "hotel",
+    "lodging"
+  ],
+  "hotel": [
+    "accommodation",
+    "boarding",
+    "boarding lodging",
+    "hotel",
+    "lodging"
+  ],
+  "lodging": [
+    "accommodation",
+    "boarding",
+    "boarding lodging",
+    "hotel",
+    "lodging"
+  ],
+  "improve": [
+    "improve",
+    "improved",
+    "improvement",
+    "improving"
+  ],
+  "improved": [
+    "improve",
+    "improved",
+    "improvement",
+    "improving"
+  ],
+  "improvement": [
+    "improve",
+    "improved",
+    "improvement",
+    "improving"
+  ],
+  "improving": [
+    "improve",
+    "improved",
+    "improvement",
+    "improving"
+  ],
+  "income exceed": [
+    "income exceed",
+    "income limit"
+  ],
+  "income limit": [
+    "income exceed",
+    "income limit"
+  ],
+  "ensure": [
+    "ensure",
+    "ensuring"
+  ],
+  "ensuring": [
+    "ensure",
+    "ensuring"
+  ],
+  "maintain": [
+    "maintain",
+    "maintenance"
+  ],
+  "maintenance": [
+    "maintain",
+    "maintenance"
+  ],
+  "center": [
+    "center",
+    "centers",
+    "centre",
+    "centres"
+  ],
+  "centers": [
+    "center",
+    "centers",
+    "centre",
+    "centres"
+  ],
+  "centre": [
+    "center",
+    "centers",
+    "centre",
+    "centres"
+  ],
+  "centres": [
+    "center",
+    "centers",
+    "centre",
+    "centres"
+  ],
+  "increase": [
+    "increase",
+    "increased"
+  ],
+  "increased": [
+    "increase",
+    "increased"
+  ],
+  "use": [
+    "use",
+    "used"
+  ],
+  "used": [
+    "use",
+    "used"
+  ],
+  "enhance": [
+    "enhance",
+    "enhanced",
+    "enhancement"
+  ],
+  "enhanced": [
+    "enhance",
+    "enhanced",
+    "enhancement"
+  ],
+  "enhancement": [
+    "enhance",
+    "enhanced",
+    "enhancement"
+  ],
+  "plant": [
+    "plant",
+    "plants"
+  ],
+  "plants": [
+    "plant",
+    "plants"
+  ],
+  "capacity": [
+    "capacity",
+    "capacity building"
+  ],
+  "capacity building": [
+    "capacity",
+    "capacity building"
+  ],
+  "market": [
+    "market",
+    "marketing"
+  ],
+  "marketing": [
+    "market",
+    "marketing"
+  ],
+  "resource": [
+    "resource",
+    "resources"
+  ],
+  "resources": [
+    "resource",
+    "resources"
+  ],
+  "intern": [
+    "intern",
+    "interns",
+    "internship"
+  ],
+  "interns": [
+    "intern",
+    "interns",
+    "internship"
+  ],
+  "internship": [
+    "intern",
+    "interns",
+    "internship"
+  ],
+  "installment": [
+    "installment",
+    "installments"
+  ],
+  "installments": [
+    "installment",
+    "installments"
+  ],
+  "product": [
+    "product",
+    "products"
+  ],
+  "products": [
+    "product",
+    "products"
+  ],
+  "release": [
+    "release",
+    "released"
+  ],
+  "released": [
+    "release",
+    "released"
+  ],
+  "vocational": [
+    "vocational",
+    "vocational training"
+  ],
+  "vocational training": [
+    "vocational",
+    "vocational training"
+  ],
+  "percent": [
+    "percent",
+    "percentage"
+  ],
+  "percentage": [
+    "percent",
+    "percentage"
+  ],
+  "tuition": [
+    "tuition",
+    "tuition fee",
+    "tuition fees"
+  ],
+  "tuition fee": [
+    "tuition",
+    "tuition fee",
+    "tuition fees"
+  ],
+  "tuition fees": [
+    "tuition",
+    "tuition fee",
+    "tuition fees"
+  ],
+  "seed": [
+    "seed",
+    "seeds"
+  ],
+  "seeds": [
+    "seed",
+    "seeds"
+  ],
+  "include": [
+    "include",
+    "included",
+    "includes"
+  ],
+  "included": [
+    "include",
+    "included",
+    "includes"
+  ],
+  "includes": [
+    "include",
+    "included",
+    "includes"
+  ],
+  "type": [
+    "type",
+    "types"
+  ],
+  "types": [
+    "type",
+    "types"
+  ],
+  "run": [
+    "run",
+    "running"
+  ],
+  "running": [
+    "run",
+    "running"
+  ],
+  "offer": [
+    "offer",
+    "offered",
+    "offers"
+  ],
+  "offered": [
+    "offer",
+    "offered",
+    "offers"
+  ],
+  "offers": [
+    "offer",
+    "offered",
+    "offers"
+  ],
+  "book": [
+    "book",
+    "books"
+  ],
+  "books": [
+    "book",
+    "books"
+  ],
+  "credit": [
+    "credit",
+    "credit linked"
+  ],
+  "credit linked": [
+    "credit",
+    "credit linked"
+  ],
+  "particular": [
+    "particular",
+    "specific"
+  ],
+  "specific": [
+    "particular",
+    "specific"
+  ],
+  "located": [
+    "located",
+    "location",
+    "place"
+  ],
+  "location": [
+    "located",
+    "location",
+    "place"
+  ],
+  "place": [
+    "located",
+    "location",
+    "place"
+  ],
+  "agencies": [
+    "agencies",
+    "agency",
+    "implementing agency"
+  ],
+  "agency": [
+    "agencies",
+    "agency",
+    "implementing agency"
+  ],
+  "implementing agency": [
+    "agencies",
+    "agency",
+    "implementing agency"
+  ],
+  "educational qualification": [
+    "educational qualification",
+    "qualification",
+    "qualifications",
+    "qualified"
+  ],
+  "qualification": [
+    "educational qualification",
+    "qualification",
+    "qualifications",
+    "qualified"
+  ],
+  "qualifications": [
+    "educational qualification",
+    "qualification",
+    "qualifications",
+    "qualified"
+  ],
+  "qualified": [
+    "educational qualification",
+    "qualification",
+    "qualifications",
+    "qualified"
+  ],
+  "process": [
+    "process",
+    "processing"
+  ],
+  "processing": [
+    "process",
+    "processing"
+  ],
+  "obc": [
+    "obc",
+    "st obc"
+  ],
+  "st obc": [
+    "obc",
+    "st obc"
+  ],
+  "participate": [
+    "participate",
+    "participating",
+    "participation"
+  ],
+  "participating": [
+    "participate",
+    "participating",
+    "participation"
+  ],
+  "participation": [
+    "participate",
+    "participating",
+    "participation"
+  ],
+  "section": [
+    "section",
+    "sections",
+    "weaker sections"
+  ],
+  "sections": [
+    "section",
+    "sections",
+    "weaker sections"
+  ],
+  "weaker sections": [
+    "section",
+    "sections",
+    "weaker sections"
+  ],
+  "abled person": [
+    "abled person",
+    "abled persons"
+  ],
+  "abled persons": [
+    "abled person",
+    "abled persons"
+  ],
+  "certification": [
+    "certification",
+    "certified"
+  ],
+  "certified": [
+    "certification",
+    "certified"
+  ],
+  "fish": [
+    "fish",
+    "fisheries",
+    "fisherman",
+    "fishermen",
+    "fishing"
+  ],
+  "fisheries": [
+    "fish",
+    "fisheries",
+    "fisherman",
+    "fishermen",
+    "fishing"
+  ],
+  "fisherman": [
+    "fish",
+    "fisheries",
+    "fisherman",
+    "fishermen",
+    "fishing"
+  ],
+  "fishermen": [
+    "fish",
+    "fisheries",
+    "fisherman",
+    "fishermen",
+    "fishing"
+  ],
+  "fishing": [
+    "fish",
+    "fisheries",
+    "fisherman",
+    "fishermen",
+    "fishing"
+  ],
+  "abroad": [
+    "abroad",
+    "overseas"
+  ],
+  "overseas": [
+    "abroad",
+    "overseas"
+  ],
+  "material": [
+    "material",
+    "materials"
+  ],
+  "materials": [
+    "material",
+    "materials"
+  ],
+  "machine": [
+    "machine",
+    "machinery"
+  ],
+  "machinery": [
+    "machine",
+    "machinery"
+  ],
+  "bodies": [
+    "bodies",
+    "body"
+  ],
+  "body": [
+    "bodies",
+    "body"
+  ],
+  "august": [
+    "august",
+    "october"
+  ],
+  "october": [
+    "august",
+    "october"
+  ],
+  "vehicle": [
+    "vehicle",
+    "vehicles"
+  ],
+  "vehicles": [
+    "vehicle",
+    "vehicles"
+  ],
+  "notification": [
+    "notification",
+    "notified"
+  ],
+  "notified": [
+    "notification",
+    "notified"
+  ],
+  "sainik": [
+    "sainik",
+    "sainik welfare"
+  ],
+  "sainik welfare": [
+    "sainik",
+    "sainik welfare"
+  ],
+  "household": [
+    "household",
+    "households"
+  ],
+  "households": [
+    "household",
+    "households"
+  ],
+  "earlier": [
+    "earlier",
+    "early"
+  ],
+  "early": [
+    "earlier",
+    "early"
+  ],
+  "event": [
+    "event",
+    "events"
+  ],
+  "events": [
+    "event",
+    "events"
+  ],
+  "hospital": [
+    "hospital",
+    "hospitalization",
+    "hospitals"
+  ],
+  "hospitalization": [
+    "hospital",
+    "hospitalization",
+    "hospitals"
+  ],
+  "hospitals": [
+    "hospital",
+    "hospitalization",
+    "hospitals"
+  ],
+  "establish": [
+    "establish",
+    "established"
+  ],
+  "established": [
+    "establish",
+    "established"
+  ],
+  "gram panchayat": [
+    "gram panchayat",
+    "panchayat",
+    "panchayats"
+  ],
+  "panchayat": [
+    "gram panchayat",
+    "panchayat",
+    "panchayats"
+  ],
+  "panchayats": [
+    "gram panchayat",
+    "panchayat",
+    "panchayats"
+  ],
+  "undertaking": [
+    "undertaking",
+    "undertakings"
+  ],
+  "undertakings": [
+    "undertaking",
+    "undertakings"
+  ],
+  "tool": [
+    "tool",
+    "tools"
+  ],
+  "tools": [
+    "tool",
+    "tools"
+  ],
+  "income tax": [
+    "income tax",
+    "tax"
+  ],
+  "tax": [
+    "income tax",
+    "tax"
+  ],
+  "successful": [
+    "successful",
+    "successfully"
+  ],
+  "successfully": [
+    "successful",
+    "successfully"
+  ],
+  "physical": [
+    "physical",
+    "physically"
+  ],
+  "physically": [
+    "physical",
+    "physically"
+  ],
+  "hectare": [
+    "hectare",
+    "hectares"
+  ],
+  "hectares": [
+    "hectare",
+    "hectares"
+  ],
+  "aicte": [
+    "aicte",
+    "aicte approved"
+  ],
+  "aicte approved": [
+    "aicte",
+    "aicte approved"
+  ],
+  "gandhi": [
+    "gandhi",
+    "indira",
+    "indira gandhi"
+  ],
+  "indira": [
+    "gandhi",
+    "indira",
+    "indira gandhi"
+  ],
+  "indira gandhi": [
+    "gandhi",
+    "indira",
+    "indira gandhi"
+  ],
+  "pattern": [
+    "pattern",
+    "pattern assistance"
+  ],
+  "pattern assistance": [
+    "pattern",
+    "pattern assistance"
+  ],
+  "environment": [
+    "environment",
+    "environmental"
+  ],
+  "environmental": [
+    "environment",
+    "environmental"
+  ],
+  "competition": [
+    "competition",
+    "competitive"
+  ],
+  "competitive": [
+    "competition",
+    "competitive"
+  ],
+  "administration": [
+    "administration",
+    "administrative"
+  ],
+  "administrative": [
+    "administration",
+    "administrative"
+  ],
+  "owned": [
+    "owned",
+    "owner",
+    "owners",
+    "ownership"
+  ],
+  "owner": [
+    "owned",
+    "owner",
+    "owners",
+    "ownership"
+  ],
+  "owners": [
+    "owned",
+    "owner",
+    "owners",
+    "ownership"
+  ],
+  "ownership": [
+    "owned",
+    "owner",
+    "owners",
+    "ownership"
+  ],
+  "meritorious": [
+    "meritorious",
+    "meritorious students"
+  ],
+  "meritorious students": [
+    "meritorious",
+    "meritorious students"
+  ],
+  "pregnancy": [
+    "pregnancy",
+    "pregnant",
+    "pregnant women"
+  ],
+  "pregnant": [
+    "pregnancy",
+    "pregnant",
+    "pregnant women"
+  ],
+  "pregnant women": [
+    "pregnancy",
+    "pregnant",
+    "pregnant women"
+  ],
+  "accidental": [
+    "accidental",
+    "accidental death"
+  ],
+  "accidental death": [
+    "accidental",
+    "accidental death"
+  ],
+  "held": [
+    "held",
+    "hold",
+    "holding"
+  ],
+  "hold": [
+    "held",
+    "hold",
+    "holding"
+  ],
+  "holding": [
+    "held",
+    "hold",
+    "holding"
+  ],
+  "blind": [
+    "blind",
+    "impaired",
+    "visually impaired"
+  ],
+  "impaired": [
+    "blind",
+    "impaired",
+    "visually impaired"
+  ],
+  "visually impaired": [
+    "blind",
+    "impaired",
+    "visually impaired"
+  ],
+  "ex servicemen": [
+    "ex servicemen",
+    "servicemen"
+  ],
+  "servicemen": [
+    "ex servicemen",
+    "servicemen"
+  ],
+  "reduce": [
+    "reduce",
+    "reducing"
+  ],
+  "reducing": [
+    "reduce",
+    "reducing"
+  ],
+  "dadra nagar": [
+    "dadra nagar",
+    "nagar",
+    "nagar haveli"
+  ],
+  "nagar": [
+    "dadra nagar",
+    "nagar",
+    "nagar haveli"
+  ],
+  "nagar haveli": [
+    "dadra nagar",
+    "nagar",
+    "nagar haveli"
+  ],
+  "innovation": [
+    "innovation",
+    "innovative"
+  ],
+  "innovative": [
+    "innovation",
+    "innovative"
+  ],
+  "assistance marriage": [
+    "assistance marriage",
+    "marriage assistance"
+  ],
+  "marriage assistance": [
+    "assistance marriage",
+    "marriage assistance"
+  ],
+  "pradhan": [
+    "pradhan",
+    "pradhan mantri"
+  ],
+  "pradhan mantri": [
+    "pradhan",
+    "pradhan mantri"
+  ],
+  "preceding": [
+    "preceding",
+    "subsequent"
+  ],
+  "subsequent": [
+    "preceding",
+    "subsequent"
+  ],
+  "create": [
+    "create",
+    "creating",
+    "creation"
+  ],
+  "creating": [
+    "create",
+    "creating",
+    "creation"
+  ],
+  "creation": [
+    "create",
+    "creating",
+    "creation"
+  ],
+  "proposal": [
+    "proposal",
+    "proposals",
+    "proposed"
+  ],
+  "proposals": [
+    "proposal",
+    "proposals",
+    "proposed"
+  ],
+  "proposed": [
+    "proposal",
+    "proposals",
+    "proposed"
+  ],
+  "extended": [
+    "extended",
+    "extension"
+  ],
+  "extension": [
+    "extended",
+    "extension"
+  ],
+  "december": [
+    "december",
+    "january"
+  ],
+  "january": [
+    "december",
+    "january"
+  ],
+  "cattle": [
+    "cattle",
+    "cow",
+    "cows",
+    "livestock"
+  ],
+  "cow": [
+    "cattle",
+    "cow",
+    "cows",
+    "livestock"
+  ],
+  "cows": [
+    "cattle",
+    "cow",
+    "cows",
+    "livestock"
+  ],
+  "livestock": [
+    "cattle",
+    "cow",
+    "cows",
+    "livestock"
+  ],
+  "handicraft": [
+    "handicraft",
+    "handicrafts"
+  ],
+  "handicrafts": [
+    "handicraft",
+    "handicrafts"
+  ],
+  "uttar": [
+    "uttar",
+    "uttarakhand"
+  ],
+  "uttarakhand": [
+    "uttar",
+    "uttarakhand"
+  ],
+  "requirement": [
+    "requirement",
+    "requirements"
+  ],
+  "requirements": [
+    "requirement",
+    "requirements"
+  ],
+  "jammu": [
+    "jammu",
+    "jammu kashmir",
+    "kashmir"
+  ],
+  "jammu kashmir": [
+    "jammu",
+    "jammu kashmir",
+    "kashmir"
+  ],
+  "kashmir": [
+    "jammu",
+    "jammu kashmir",
+    "kashmir"
+  ],
+  "design": [
+    "design",
+    "designed"
+  ],
+  "designed": [
+    "design",
+    "designed"
+  ],
+  "commission": [
+    "commission",
+    "service commission"
+  ],
+  "service commission": [
+    "commission",
+    "service commission"
+  ],
+  "acre": [
+    "acre",
+    "acres"
+  ],
+  "acres": [
+    "acre",
+    "acres"
+  ],
+  "textile": [
+    "textile",
+    "textiles"
+  ],
+  "textiles": [
+    "textile",
+    "textiles"
+  ],
+  "scholar": [
+    "scholar",
+    "scholars"
+  ],
+  "scholars": [
+    "scholar",
+    "scholars"
+  ],
+  "partner": [
+    "partner",
+    "partnership"
+  ],
+  "partnership": [
+    "partner",
+    "partnership"
+  ],
+  "trainee": [
+    "trainee",
+    "trainees"
+  ],
+  "trainees": [
+    "trainee",
+    "trainees"
+  ],
+  "ex serviceman": [
+    "ex serviceman",
+    "serviceman"
+  ],
+  "serviceman": [
+    "ex serviceman",
+    "serviceman"
+  ],
+  "weaver": [
+    "weaver",
+    "weavers"
+  ],
+  "weavers": [
+    "weaver",
+    "weavers"
+  ],
+  "ration": [
+    "ration",
+    "ration card"
+  ],
+  "ration card": [
+    "ration",
+    "ration card"
+  ],
+  "daman": [
+    "daman",
+    "daman diu",
+    "diu",
+    "haveli",
+    "haveli daman"
+  ],
+  "daman diu": [
+    "daman",
+    "daman diu",
+    "diu",
+    "haveli",
+    "haveli daman"
+  ],
+  "diu": [
+    "daman",
+    "daman diu",
+    "diu",
+    "haveli",
+    "haveli daman"
+  ],
+  "haveli": [
+    "daman",
+    "daman diu",
+    "diu",
+    "haveli",
+    "haveli daman"
+  ],
+  "haveli daman": [
+    "daman",
+    "daman diu",
+    "diu",
+    "haveli",
+    "haveli daman"
+  ],
+  "appropriate": [
+    "appropriate",
+    "suitable"
+  ],
+  "suitable": [
+    "appropriate",
+    "suitable"
+  ],
+  "leave": [
+    "leave",
+    "stay"
+  ],
+  "stay": [
+    "leave",
+    "stay"
+  ],
+  "region": [
+    "region",
+    "regional"
+  ],
+  "regional": [
+    "region",
+    "regional"
+  ],
+  "mental": [
+    "mental",
+    "mentally"
+  ],
+  "mentally": [
+    "mental",
+    "mentally"
+  ],
+  "shg": [
+    "shg",
+    "shgs"
+  ],
+  "shgs": [
+    "shg",
+    "shgs"
+  ],
+  "marginal": [
+    "marginal",
+    "small marginal"
+  ],
+  "small marginal": [
+    "marginal",
+    "small marginal"
+  ],
+  "administration dadra": [
+    "administration dadra",
+    "dadra"
+  ],
+  "dadra": [
+    "administration dadra",
+    "dadra"
+  ],
+  "heir": [
+    "heir",
+    "legal heir"
+  ],
+  "legal heir": [
+    "heir",
+    "legal heir"
+  ],
+  "patient": [
+    "patient",
+    "patients"
+  ],
+  "patients": [
+    "patient",
+    "patients"
+  ],
+  "holder": [
+    "holder",
+    "holders"
+  ],
+  "holders": [
+    "holder",
+    "holders"
+  ],
+  "associated": [
+    "associated",
+    "association"
+  ],
+  "association": [
+    "associated",
+    "association"
+  ],
+  "poultry": [
+    "poultry",
+    "poultry farming"
+  ],
+  "poultry farming": [
+    "poultry",
+    "poultry farming"
+  ],
+  "adi dravidar": [
+    "adi dravidar",
+    "dravidar"
+  ],
+  "dravidar": [
+    "adi dravidar",
+    "dravidar"
+  ],
+  "test": [
+    "test",
+    "testing"
+  ],
+  "testing": [
+    "test",
+    "testing"
+  ],
+  "installation": [
+    "installation",
+    "instalment"
+  ],
+  "instalment": [
+    "installation",
+    "instalment"
+  ],
+  "force": [
+    "force",
+    "forces"
+  ],
+  "forces": [
+    "force",
+    "forces"
+  ],
+  "kit": [
+    "kit",
+    "kits"
+  ],
+  "kits": [
+    "kit",
+    "kits"
+  ],
+  "qualify": [
+    "qualify",
+    "qualifying"
+  ],
+  "qualifying": [
+    "qualify",
+    "qualifying"
+  ],
+  "advance": [
+    "advance",
+    "advanced"
+  ],
+  "advanced": [
+    "advance",
+    "advanced"
+  ],
+  "issue": [
+    "issue",
+    "issues"
+  ],
+  "issues": [
+    "issue",
+    "issues"
+  ],
+  "dairy": [
+    "dairy",
+    "milk"
+  ],
+  "milk": [
+    "dairy",
+    "milk"
+  ],
+  "long term": [
+    "long term",
+    "short",
+    "short term"
+  ],
+  "short": [
+    "long term",
+    "short",
+    "short term"
+  ],
+  "short term": [
+    "long term",
+    "short",
+    "short term"
+  ],
+  "diversification": [
+    "diversification",
+    "expansion diversification"
+  ],
+  "expansion diversification": [
+    "diversification",
+    "expansion diversification"
+  ],
+  "startup": [
+    "startup",
+    "startups"
+  ],
+  "startups": [
+    "startup",
+    "startups"
+  ],
+  "laboratories": [
+    "laboratories",
+    "laboratory"
+  ],
+  "laboratory": [
+    "laboratories",
+    "laboratory"
+  ],
+  "exhibition": [
+    "exhibition",
+    "exhibitions"
+  ],
+  "exhibitions": [
+    "exhibition",
+    "exhibitions"
+  ],
+  "site": [
+    "site",
+    "website"
+  ],
+  "website": [
+    "site",
+    "website"
+  ],
+  "journalist": [
+    "journalist",
+    "journalists"
+  ],
+  "journalists": [
+    "journalist",
+    "journalists"
+  ],
+  "victim": [
+    "victim",
+    "victims"
+  ],
+  "victims": [
+    "victim",
+    "victims"
+  ],
+  "phil": [
+    "phil",
+    "phil ph"
+  ],
+  "phil ph": [
+    "phil",
+    "phil ph"
+  ],
+  "ngo": [
+    "ngo",
+    "ngos"
+  ],
+  "ngos": [
+    "ngo",
+    "ngos"
+  ],
+  "entrance": [
+    "entrance",
+    "entry"
+  ],
+  "entry": [
+    "entrance",
+    "entry"
+  ],
+  "entities": [
+    "entities",
+    "entity"
+  ],
+  "entity": [
+    "entities",
+    "entity"
+  ],
+  "ward": [
+    "ward",
+    "wards"
+  ],
+  "wards": [
+    "ward",
+    "wards"
+  ],
+  "ex gratia": [
+    "ex gratia",
+    "gratia"
+  ],
+  "gratia": [
+    "ex gratia",
+    "gratia"
+  ],
+  "andaman": [
+    "andaman",
+    "andaman nicobar",
+    "nicobar"
+  ],
+  "andaman nicobar": [
+    "andaman",
+    "andaman nicobar",
+    "nicobar"
+  ],
+  "nicobar": [
+    "andaman",
+    "andaman nicobar",
+    "nicobar"
+  ],
+  "motor": [
+    "motor",
+    "motorized"
+  ],
+  "motorized": [
+    "motor",
+    "motorized"
+  ],
+  "mysy": [
+    "mysy",
+    "Mukhyamantri Yuva Swavalamban Yojana",
+    "yuva swavalamban"
+  ],
+  "mysy scholarship": [
+    "mysy scholarship",
+    "Mukhyamantri Yuva Swavalamban Yojana",
+    "yuva swavalamban"
+  ]
+}
